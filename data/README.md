@@ -4,14 +4,14 @@ Note that we only publish part of our dataset (CWE190.json, CWE191.json) now. We
   This is the basic dataset we used, you can download it through https://samate.nist.gov/SRD/testsuite.php
 
 # Juliet+
-  Based on Juliet, we create our dataser named Juliet+, where the vulnerability-related code lines are labeled manunally. The statistic.csv file describe the class distribution of 70 CWEs in Juliet+. There are 29990 samples, of which 16051 are bad and 13939 are good.
+  Based on Juliet, we create our dataser named Juliet+, where the vulnerability-related code lines are labeled manunally. The file statistic.csv describe the class distribution of 70 CWEs in Juliet+. There are 29990 samples, of which 16051 are bad and 13939 are good.
 ## how to label the vulnerability-related code lines
- We only label the sample in test set (about 7500). See the CWE190.csv as an example. 
+ We only label the samples in test set (about 7500). See the CWE190.csv as an example. 
  "case_id" is the column to show the order of the samples in the test set. The column "cwe" denotes the CWE ID. Each sample has a main (primary) java file (column "main_file") and at least one java file (column "java_file"). A core function (column “func_name”) that starts the good or bad execution must be put in the main java file. The column "target" claims that a sample is vulnerable (1) or not (0).
 The column "old_label_lines" defines the vulnerability-related code lines given by Juliet. We observe that it does not provide the fixed code lines and contains some mislabeled lines. To that end, we manually relabel the vulnerability-related code lines as our dataset Juliet+ which generates two new columns "bad_source_lines" and "bad_sink_lines". The former refers to each bad sample while the latter is related to each good sample.
 
 ## preprocess Juliet
-We use Javaparser (https://javaparser.org/) to parser the source code of Juliet. To generate the CFG, we refer to the project AISEC (https://github.com/Fraunhofer-AISEC/cpg). The specific steps are contained in the code of file "process_data".
+We use Javaparser (https://javaparser.org/) to parser the source code of Juliet. To generate the CFG, we refer to the project AISEC (https://github.com/Fraunhofer-AISEC/cpg). The specific steps are contained in the codes of file "process_data".
 
 ## final_data
 CWE190.json and CWE191.json contains the final data on CWE190 and CWE191 (only in test set).
