@@ -6,7 +6,7 @@ Note that we only publish part of our dataset (CWE190.json, CWE191.json) now. We
 # Juliet+
   Based on Juliet, we create our dataser named Juliet+, where the vulnerability-related code lines are labeled manunally. The file statistic.csv describe the class distribution of 70 CWEs in Juliet+. There are 29990 samples, of which 16051 are bad and 13939 are good.
 ## why manually mark vulnerability-related lines of code
-First, some of the vulnerability-related code lines given by Juliet are mislabeled. Second, Juliet does not give the vulnerble code lines which are not at the primary files (see below for the meaning of "primary"). Third, Juliet does not give the repaired code lines for the good executions. Fourth, we want explore how the models interpretability preform on the different type of code lines.
+First, some of the vulnerability-related code lines given by Juliet are mislabeled. Second, Juliet does not give the vulnerble code lines which are not at the primary files (see below for the meaning of "primary"). Third, Juliet does not give the repaired code lines for the good executions. Fourth, we want explore how the models' interpretability preforms on the different type of code lines.
 ## how to label the vulnerability-related code lines
  We only label the samples in test set (about 7500). See the CWE190.csv as an example. 
  "case_id" is the column to show the order of the samples in the test set. The column "cwe" denotes the CWE ID. Each sample has a main (primary) java file (column "main_file") and at least one java file (column "java_file"). A core function (column “func_name”) that starts the good or bad execution must be put in the main java file. The column "target" claims that a sample is vulnerable (1) or not (0).
