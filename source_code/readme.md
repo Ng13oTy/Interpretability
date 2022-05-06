@@ -9,3 +9,5 @@ There are four models, i.e., LSTM-att, SAN, HAN and R-GCN-att, and all of them u
    * labeled_processed_test_data.json: the labled test set
    * node_type_dic.json: the map of all the node types (7 in total) in DDG
    * w2v.model: the trained word2vec model with corpus of all samples.
+   Note that we do not publish the preprocessed training set for the time being. These files are used to reproduce our experimental results. To do this, 
+   copy these files into the folder named "data" of each model. 
