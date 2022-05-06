@@ -1,0 +1,1 @@
+This dir is to save the result of a trained model with labeled test data
