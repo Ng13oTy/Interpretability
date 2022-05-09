@@ -1,7 +1,7 @@
 # 1. Experimental Design
-Since many existing state-of-the-art vulnerability detection researches such as [VulDeePecker](https://arxiv.org/abs/1801.01681) and [SySeVR](https://arxiv.org/pdf/1807.06756.pdf) do not use attention mechanism, we cannot use these models directly for experiments. We observe that vulnerability detection models are broadly classified into two categories, namely sequence-based and graph neural network-based. We also consider what source code has in common with natural language. Therefore, we borrow several applications of attention mechanism in NLP field and implement two types of `four vulnerability detection models with attention mechanism`. We devise four questions to investigate the interpretability of the model.
+Since many existing state-of-the-art vulnerability detection researches such as [VulDeePecker](https://arxiv.org/abs/1801.01681) and [SySeVR](https://arxiv.org/pdf/1807.06756.pdf) do not use attention mechanism, we cannot use these models directly for experiments. We observe that vulnerability detection models are broadly classified into two categories, namely sequence-based and graph neural network-based. We also consider what source code has in common with natural language. Therefore, we borrow several applications of attention mechanism in NLP field and implement two types of `four vulnerability detection models with attention mechanism`. We devise four questions to investigate the interpretability of the models.
 
-For the reliability of the experimental results, we get `ten` trained results for each model
+For the reliability of the experimental results, we get `ten` trained results for each model.
 
 ## 1.1 Model
    * [LSTM-att](https://aclanthology.org/P16-2034.pdf):(Google Scholar 1500+ citations). It itself is to classify the relationship of a sentence. We regard a node in        the DDG as a word, and the entire DDG as a sentence to observe the importance of a certain node.
