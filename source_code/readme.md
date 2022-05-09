@@ -52,4 +52,5 @@ There are four models, i.e., LSTM-att, SAN, HAN and R-GCN-att, and all of them u
   * choose any trained model, such as SAN.bin in the `SAN/result/model_0/SAN.bin`
   * run show_result.py (set 'trained_model_path' correctly first) and then you will see the result in the folder "show_result"
   * after get ten results, you can calculate their average result (refer to process.py)
+  
   Note that results may vary slightly due to machine differences
