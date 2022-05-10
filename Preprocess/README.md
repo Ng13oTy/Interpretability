@@ -21,12 +21,15 @@ Next, we will detail the basic dataset Juliet, how we label the vulnerability-re
 
 # 3. Generate DDG
   We show the process with the following example.
+  
   ![image](https://github.com/Ng13oTy/Interpretability/blob/main/Preprocess/pictures/example.PNG)
   
   We first need to generate its CFG
+  
   ![image](https://github.com/Ng13oTy/Interpretability/blob/main/Preprocess/pictures/ctr.PNG)
   
   Note that there are three varibles 'a', 'b', 'r'. To generate DDG, we need to know what variables are read and what variables are written with each node.
+  
   ![image](https://github.com/Ng13oTy/Interpretability/blob/main/Preprocess/pictures/wr.PNG)
   
   Next, we draw each data dependency. A data dependency goes from a node that writes into a variable to another node that reads from the variable.To have a valid dependency, we must identify the correct ‘write’ node for each ‘read’ node. That is done as follows.
