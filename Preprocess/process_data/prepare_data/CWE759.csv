@@ -1,0 +1,4 @@
+case_id,cwe,main_file,java_file,func_name,target,old_labeled_lines,case_id,bad_source_lines,bad_sink_lines,fixed_lines
+6172,CWE759,CWE759_Unsalted_One_Way_Hash__basic_12,CWE759_Unsalted_One_Way_Hash__basic_12,bad,1,[31],6172,,31,
+,,,,,,,,,,
+6173,CWE759,CWE759_Unsalted_One_Way_Hash__basic_01,CWE759_Unsalted_One_Way_Hash__basic_01,good1,0,[31],6173,,,48

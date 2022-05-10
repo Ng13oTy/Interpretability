@@ -1,0 +1,331 @@
+case_id,cwe,main_file,java_file,func_name,target,old_labeled_lines,case_id,bad_source_lines,bad_sink_lines,fixed_lines
+6054,CWE690,CWE690_NULL_Deref_From_Return__System_getProperty_equals_74a,CWE690_NULL_Deref_From_Return__System_getProperty_equals_74a,goodB2G,0,[32],6054,,,
+6054,CWE690,,CWE690_NULL_Deref_From_Return__System_getProperty_equals_74b,,,,6054,,,58
+,,,,,,,,,,
+6055,CWE690,CWE690_NULL_Deref_From_Return__Class_StringBuilder_22a,CWE690_NULL_Deref_From_Return__Class_StringBuilder_22a,goodB2G1,0,[33],6055,,,
+6055,CWE690,,CWE690_NULL_Deref_From_Return__Class_StringBuilder_22b,,,,6055,,,53
+,,,,,,,,,,
+6056,CWE690,CWE690_NULL_Deref_From_Return__Class_String_01,CWE690_NULL_Deref_From_Return__Class_String_01,goodG2B,0,"[32, 29]",6056,50,,
+,,,,,,,,,,
+6057,CWE690,CWE690_NULL_Deref_From_Return__getParameter_Servlet_equals_67a,CWE690_NULL_Deref_From_Return__getParameter_Servlet_equals_67a,bad,1,[36],6057,36,,
+6057,CWE690,,CWE690_NULL_Deref_From_Return__getParameter_Servlet_equals_67b,,,,6057,,31,
+,,,,,,,,,,
+6058,CWE690,CWE690_NULL_Deref_From_Return__Class_StringBuilder_52a,CWE690_NULL_Deref_From_Return__Class_StringBuilder_52a,bad,1,[29],6058,29,,
+6058,CWE690,,CWE690_NULL_Deref_From_Return__Class_StringBuilder_52b,,,,6058,,,
+6058,CWE690,,CWE690_NULL_Deref_From_Return__Class_StringBuilder_52c,,,,6058,,28,
+,,,,,,,,,,
+6059,CWE690,CWE690_NULL_Deref_From_Return__getParameter_Servlet_equals_45,CWE690_NULL_Deref_From_Return__getParameter_Servlet_equals_45,bad,1,[47],6059,47,35,
+,,,,,,,,,,
+6060,CWE690,CWE690_NULL_Deref_From_Return__getParameter_Servlet_equals_71a,CWE690_NULL_Deref_From_Return__getParameter_Servlet_equals_71a,goodG2B,0,[31],6060,,,48
+6060,CWE690,,CWE690_NULL_Deref_From_Return__getParameter_Servlet_equals_71b,,,,6060,,,
+,,,,,,,,,,
+6061,CWE690,CWE690_NULL_Deref_From_Return__Class_StringBuilder_73a,CWE690_NULL_Deref_From_Return__Class_StringBuilder_73a,goodG2B,0,[30],6061,,,51
+6061,CWE690,,CWE690_NULL_Deref_From_Return__Class_StringBuilder_73b,,,,6061,,,
+,,,,,,,,,,
+6062,CWE690,CWE690_NULL_Deref_From_Return__getParameter_Servlet_equals_54a,CWE690_NULL_Deref_From_Return__getParameter_Servlet_equals_54a,bad,1,[31],6062,31,,
+6062,CWE690,,CWE690_NULL_Deref_From_Return__getParameter_Servlet_equals_54b,,,,6062,,,
+6062,CWE690,,CWE690_NULL_Deref_From_Return__getParameter_Servlet_equals_54c,,,,6062,,,
+6062,CWE690,,CWE690_NULL_Deref_From_Return__getParameter_Servlet_equals_54d,,,,6062,,,
+6062,CWE690,,CWE690_NULL_Deref_From_Return__getParameter_Servlet_equals_54e,,,,6062,,30,
+,,,,,,,,,,
+6063,CWE690,CWE690_NULL_Deref_From_Return__getParameter_Servlet_trim_66a,CWE690_NULL_Deref_From_Return__getParameter_Servlet_trim_66a,bad,1,[31],6063,31,,
+6063,CWE690,,CWE690_NULL_Deref_From_Return__getParameter_Servlet_trim_66b,,,,6063,,31,
+,,,,,,,,,,
+6064,CWE690,CWE690_NULL_Deref_From_Return__Properties_getProperty_equals_22a,CWE690_NULL_Deref_From_Return__Properties_getProperty_equals_22a,goodB2G1,0,[49],6064,,,
+6064,CWE690,,CWE690_NULL_Deref_From_Return__Properties_getProperty_equals_22b,,,,6064,,,57
+,,,,,,,,,,
+6065,CWE690,CWE690_NULL_Deref_From_Return__Properties_getProperty_equals_22a,CWE690_NULL_Deref_From_Return__Properties_getProperty_equals_22a,bad,1,[49],6065,49,,
+6065,CWE690,,CWE690_NULL_Deref_From_Return__Properties_getProperty_equals_22b,,,,6065,,31,
+,,,,,,,,,,
+6066,CWE690,CWE690_NULL_Deref_From_Return__getParameter_Servlet_equals_02,CWE690_NULL_Deref_From_Return__getParameter_Servlet_equals_02,goodG2B2,0,"[32, 44]",6066,,,86
+,,,,,,,,,,
+6067,CWE690,CWE690_NULL_Deref_From_Return__getParameter_Servlet_equals_52a,CWE690_NULL_Deref_From_Return__getParameter_Servlet_equals_52a,goodB2G,0,[31],6067,,,
+6067,CWE690,,CWE690_NULL_Deref_From_Return__getParameter_Servlet_equals_52b,,,,6067,,,
+6067,CWE690,,CWE690_NULL_Deref_From_Return__getParameter_Servlet_equals_52c,,,,6067,,,54
+,,,,,,,,,,
+6068,CWE690,CWE690_NULL_Deref_From_Return__System_getProperty_equals_17,CWE690_NULL_Deref_From_Return__System_getProperty_equals_17,bad,1,"[41, 36]",6068,36,41,
+,,,,,,,,,,
+6069,CWE690,CWE690_NULL_Deref_From_Return__Class_StringBuilder_45,CWE690_NULL_Deref_From_Return__Class_StringBuilder_45,bad,1,[44],6069,44,33,
+,,,,,,,,,,
+6070,CWE690,CWE690_NULL_Deref_From_Return__getParameter_Servlet_equals_17,CWE690_NULL_Deref_From_Return__getParameter_Servlet_equals_17,bad,1,"[36, 41]",6070,36,41,
+,,,,,,,,,,
+6071,CWE690,CWE690_NULL_Deref_From_Return__Properties_getProperty_equals_45,CWE690_NULL_Deref_From_Return__Properties_getProperty_equals_45,goodB2G,0,[61],6071,,,122
+,,,,,,,,,,
+6072,CWE690,CWE690_NULL_Deref_From_Return__Class_StringBuilder_45,CWE690_NULL_Deref_From_Return__Class_StringBuilder_45,goodB2G,0,[44],6072,,,84
+,,,,,,,,,,
+6073,CWE690,CWE690_NULL_Deref_From_Return__getParameter_Servlet_equals_71a,CWE690_NULL_Deref_From_Return__getParameter_Servlet_equals_71a,bad,1,[31],6073,31,,
+6073,CWE690,,CWE690_NULL_Deref_From_Return__getParameter_Servlet_equals_71b,,,,6073,,31,
+,,,,,,,,,,
+6074,CWE690,CWE690_NULL_Deref_From_Return__Properties_getProperty_trim_54a,CWE690_NULL_Deref_From_Return__Properties_getProperty_trim_54a,bad,1,[45],6074,45,,
+6074,CWE690,,CWE690_NULL_Deref_From_Return__Properties_getProperty_trim_54b,,,,6074,,,
+6074,CWE690,,CWE690_NULL_Deref_From_Return__Properties_getProperty_trim_54c,,,,6074,,,
+6074,CWE690,,CWE690_NULL_Deref_From_Return__Properties_getProperty_trim_54d,,,,6074,,,
+6074,CWE690,,CWE690_NULL_Deref_From_Return__Properties_getProperty_trim_54e,,,,6074,,30,
+,,,,,,,,,,
+6075,CWE690,CWE690_NULL_Deref_From_Return__getParameter_Servlet_trim_02,CWE690_NULL_Deref_From_Return__getParameter_Servlet_trim_02,goodB2G1,0,"[32, 44]",6075,,,124
+,,,,,,,,,,
+6076,CWE690,CWE690_NULL_Deref_From_Return__getParameter_Servlet_trim_53a,CWE690_NULL_Deref_From_Return__getParameter_Servlet_trim_53a,goodG2B,0,[31],6076,,,48
+6076,CWE690,,CWE690_NULL_Deref_From_Return__getParameter_Servlet_trim_53b,,,,6076,,,
+6076,CWE690,,CWE690_NULL_Deref_From_Return__getParameter_Servlet_trim_53c,,,,6076,,,
+6076,CWE690,,CWE690_NULL_Deref_From_Return__getParameter_Servlet_trim_53d,,,,6076,,,
+,,,,,,,,,,
+6077,CWE690,CWE690_NULL_Deref_From_Return__Class_StringBuilder_16,CWE690_NULL_Deref_From_Return__Class_StringBuilder_16,goodG2B,0,"[38, 31]",6077,,,52
+,,,,,,,,,,
+6078,CWE690,CWE690_NULL_Deref_From_Return__Properties_getProperty_equals_12,CWE690_NULL_Deref_From_Return__Properties_getProperty_equals_12,goodB2G,0,"[45, 78]",6078,,,209
+,,,,,,,,,,
+6079,CWE690,CWE690_NULL_Deref_From_Return__Properties_getProperty_equals_16,CWE690_NULL_Deref_From_Return__Properties_getProperty_equals_16,goodB2G,0,"[73, 46]",6079,,,147
+,,,,,,,,,,
+6080,CWE690,CWE690_NULL_Deref_From_Return__Class_StringBuilder_31,CWE690_NULL_Deref_From_Return__Class_StringBuilder_31,goodB2G,0,"[31, 39]",6080,,,91
+,,,,,,,,,,
+6081,CWE690,CWE690_NULL_Deref_From_Return__System_getProperty_trim_61a,CWE690_NULL_Deref_From_Return__System_getProperty_trim_61a,goodB2G,0,[31],6081,,,61
+6081,CWE690,,CWE690_NULL_Deref_From_Return__System_getProperty_trim_61b,,,,6081,,,
+,,,,,,,,,,
+6082,CWE690,CWE690_NULL_Deref_From_Return__System_getProperty_trim_01,CWE690_NULL_Deref_From_Return__System_getProperty_trim_01,bad,1,"[31, 34]",6082,31,34,
+,,,,,,,,,,
+6083,CWE690,CWE690_NULL_Deref_From_Return__Properties_getProperty_trim_31,CWE690_NULL_Deref_From_Return__Properties_getProperty_trim_31,goodB2G,0,"[75, 47]",6083,,,155
+,,,,,,,,,,
+6084,CWE690,CWE690_NULL_Deref_From_Return__getParameter_Servlet_trim_72a,CWE690_NULL_Deref_From_Return__getParameter_Servlet_trim_72a,bad,1,[32],6084,32,,
+6084,CWE690,,CWE690_NULL_Deref_From_Return__getParameter_Servlet_trim_72b,,,,6084,,32,
+,,,,,,,,,,
+6085,CWE690,CWE690_NULL_Deref_From_Return__Properties_getProperty_equals_75a,CWE690_NULL_Deref_From_Return__Properties_getProperty_equals_75a,bad,1,[48],6085,48,,
+6085,CWE690,,CWE690_NULL_Deref_From_Return__Properties_getProperty_equals_75b,,,,6085,,43,
+,,,,,,,,,,
+6086,CWE690,CWE690_NULL_Deref_From_Return__Class_String_53a,CWE690_NULL_Deref_From_Return__Class_String_53a,goodB2G,0,[29],6086,,,
+6086,CWE690,,CWE690_NULL_Deref_From_Return__Class_String_53b,,,,6086,,,
+6086,CWE690,,CWE690_NULL_Deref_From_Return__Class_String_53c,,,,6086,,,
+6086,CWE690,,CWE690_NULL_Deref_From_Return__Class_String_53d,,,,6086,,,50
+,,,,,,,,,,
+6087,CWE690,CWE690_NULL_Deref_From_Return__getParameter_Servlet_trim_01,CWE690_NULL_Deref_From_Return__getParameter_Servlet_trim_01,goodB2G,0,"[34, 31]",6087,,,70
+,,,,,,,,,,
+6088,CWE690,CWE690_NULL_Deref_From_Return__getParameter_Servlet_trim_75a,CWE690_NULL_Deref_From_Return__getParameter_Servlet_trim_75a,goodG2B,0,[36],6088,,,95
+6088,CWE690,,CWE690_NULL_Deref_From_Return__getParameter_Servlet_trim_75b,,,,6088,,,
+,,,,,,,,,,
+6089,CWE690,CWE690_NULL_Deref_From_Return__Properties_getProperty_trim_17,CWE690_NULL_Deref_From_Return__Properties_getProperty_trim_17,bad,1,"[50, 75]",6089,50,75,
+,,,,,,,,,,
+6090,CWE690,CWE690_NULL_Deref_From_Return__Class_StringBuilder_16,CWE690_NULL_Deref_From_Return__Class_StringBuilder_16,bad,1,"[38, 31]",6090,31,38,
+,,,,,,,,,,
+6091,CWE690,CWE690_NULL_Deref_From_Return__getParameter_Servlet_equals_02,CWE690_NULL_Deref_From_Return__getParameter_Servlet_equals_02,bad,1,"[32, 44]",6091,32,44,
+,,,,,,,,,,
+6092,CWE690,CWE690_NULL_Deref_From_Return__System_getProperty_trim_67a,CWE690_NULL_Deref_From_Return__System_getProperty_trim_67a,goodG2B,0,[36],6092,,,55
+6092,CWE690,,CWE690_NULL_Deref_From_Return__System_getProperty_trim_67b,,,,6092,,,
+,,,,,,,,,,
+6093,CWE690,CWE690_NULL_Deref_From_Return__Properties_getProperty_equals_73a,CWE690_NULL_Deref_From_Return__Properties_getProperty_equals_73a,goodB2G,0,[46],6093,,,
+6093,CWE690,,CWE690_NULL_Deref_From_Return__Properties_getProperty_equals_73b,,,,6093,,,58
+,,,,,,,,,,
+6094,CWE690,CWE690_NULL_Deref_From_Return__Class_StringBuilder_74a,CWE690_NULL_Deref_From_Return__Class_StringBuilder_74a,goodB2G,0,[30],6094,,,
+6094,CWE690,,CWE690_NULL_Deref_From_Return__Class_StringBuilder_74b,,,,6094,,,54
+,,,,,,,,,,
+6095,CWE690,CWE690_NULL_Deref_From_Return__Class_StringBuilder_31,CWE690_NULL_Deref_From_Return__Class_StringBuilder_31,goodG2B,0,"[31, 39]",6095,,,60
+,,,,,,,,,,
+6096,CWE690,CWE690_NULL_Deref_From_Return__Properties_getProperty_equals_31,CWE690_NULL_Deref_From_Return__Properties_getProperty_equals_31,goodB2G,0,"[47, 75]",6096,,,157
+,,,,,,,,,,
+6097,CWE690,CWE690_NULL_Deref_From_Return__Class_StringBuilder_67a,CWE690_NULL_Deref_From_Return__Class_StringBuilder_67a,goodG2B,0,[34],6097,,,53
+6097,CWE690,,CWE690_NULL_Deref_From_Return__Class_StringBuilder_67b,,,,6097,,,
+,,,,,,,,,,
+6098,CWE690,CWE690_NULL_Deref_From_Return__getParameter_Servlet_trim_52a,CWE690_NULL_Deref_From_Return__getParameter_Servlet_trim_52a,goodG2B,0,[31],6098,,,48
+6098,CWE690,,CWE690_NULL_Deref_From_Return__getParameter_Servlet_trim_52b,,,,6098,,,
+6098,CWE690,,CWE690_NULL_Deref_From_Return__getParameter_Servlet_trim_52c,,,,6098,,,
+,,,,,,,,,,
+6099,CWE690,CWE690_NULL_Deref_From_Return__getParameter_Servlet_equals_61a,CWE690_NULL_Deref_From_Return__getParameter_Servlet_equals_61a,goodB2G,0,[31],6099,,,63
+6099,CWE690,,CWE690_NULL_Deref_From_Return__getParameter_Servlet_equals_61b,,,,6099,,,
+,,,,,,,,,,
+6100,CWE690,CWE690_NULL_Deref_From_Return__Class_StringBuilder_17,CWE690_NULL_Deref_From_Return__Class_StringBuilder_17,goodB2G,0,"[39, 34]",6100,,,71
+,,,,,,,,,,
+6101,CWE690,CWE690_NULL_Deref_From_Return__getParameter_Servlet_trim_16,CWE690_NULL_Deref_From_Return__getParameter_Servlet_trim_16,goodG2B,0,"[40, 33]",6101,,,54
+,,,,,,,,,,
+6102,CWE690,CWE690_NULL_Deref_From_Return__System_getProperty_trim_22a,CWE690_NULL_Deref_From_Return__System_getProperty_trim_22a,bad,1,[35],6102,35,,
+6102,CWE690,,CWE690_NULL_Deref_From_Return__System_getProperty_trim_22b,,,,6102,,31,
+,,,,,,,,,,
+6103,CWE690,CWE690_NULL_Deref_From_Return__Class_String_53a,CWE690_NULL_Deref_From_Return__Class_String_53a,bad,1,[29],6103,29,,
+6103,CWE690,,CWE690_NULL_Deref_From_Return__Class_String_53b,,,,6103,,,
+6103,CWE690,,CWE690_NULL_Deref_From_Return__Class_String_53c,,,,6103,,,
+6103,CWE690,,CWE690_NULL_Deref_From_Return__Class_String_53d,,,,6103,,28,
+,,,,,,,,,,
+6104,CWE690,CWE690_NULL_Deref_From_Return__Class_StringBuilder_42,CWE690_NULL_Deref_From_Return__Class_StringBuilder_42,bad,1,[39],6104,29,39,
+,,,,,,,,,,
+6105,CWE690,CWE690_NULL_Deref_From_Return__Class_String_22a,CWE690_NULL_Deref_From_Return__Class_String_22a,goodB2G1,0,[33],6105,,,
+6105,CWE690,,CWE690_NULL_Deref_From_Return__Class_String_22b,,,,6105,,,53
+,,,,,,,,,,
+6106,CWE690,CWE690_NULL_Deref_From_Return__Class_String_73a,CWE690_NULL_Deref_From_Return__Class_String_73a,goodB2G,0,[30],6106,,,
+6106,CWE690,,CWE690_NULL_Deref_From_Return__Class_String_73b,,,,6106,,,54
+,,,,,,,,,,
+6107,CWE690,CWE690_NULL_Deref_From_Return__System_getProperty_equals_53a,CWE690_NULL_Deref_From_Return__System_getProperty_equals_53a,goodB2G,0,[31],6107,,,
+6107,CWE690,,CWE690_NULL_Deref_From_Return__System_getProperty_equals_53b,,,,6107,,,
+6107,CWE690,,CWE690_NULL_Deref_From_Return__System_getProperty_equals_53c,,,,6107,,,
+6107,CWE690,,CWE690_NULL_Deref_From_Return__System_getProperty_equals_53d,,,,6107,,,54
+,,,,,,,,,,
+6108,CWE690,CWE690_NULL_Deref_From_Return__Properties_getProperty_equals_81a,CWE690_NULL_Deref_From_Return__Properties_getProperty_equals_81a,bad,1,[45],6108,45,,
+6108,CWE690,,CWE690_NULL_Deref_From_Return__Properties_getProperty_equals_81_bad,,,,6108,,30,
+,,,,,,,,,,
+6109,CWE690,CWE690_NULL_Deref_From_Return__Properties_getProperty_equals_68a,CWE690_NULL_Deref_From_Return__Properties_getProperty_equals_68a,goodB2G,0,[46],6109,,,
+,,,,,,,,,,
+6110,CWE690,CWE690_NULL_Deref_From_Return__getParameter_Servlet_trim_61a,CWE690_NULL_Deref_From_Return__getParameter_Servlet_trim_61a,goodG2B,0,[31],6110,,,46
+6110,CWE690,,CWE690_NULL_Deref_From_Return__getParameter_Servlet_trim_61b,,,,6110,,,
+,,,,,,,,,,
+6111,CWE690,CWE690_NULL_Deref_From_Return__getParameter_Servlet_equals_73a,CWE690_NULL_Deref_From_Return__getParameter_Servlet_equals_73a,bad,1,[32],6111,32,,
+6111,CWE690,,CWE690_NULL_Deref_From_Return__getParameter_Servlet_equals_73b,,,,6111,,32,
+,,,,,,,,,,
+6112,CWE690,CWE690_NULL_Deref_From_Return__Class_String_75a,CWE690_NULL_Deref_From_Return__Class_String_75a,goodG2B,0,[34],6112,,,93
+6112,CWE690,,CWE690_NULL_Deref_From_Return__Class_String_75b,,,,6112,,,
+,,,,,,,,,,
+6113,CWE690,CWE690_NULL_Deref_From_Return__Class_StringBuilder_61a,CWE690_NULL_Deref_From_Return__Class_StringBuilder_61a,goodB2G,0,[29],6113,,,59
+6113,CWE690,,CWE690_NULL_Deref_From_Return__Class_StringBuilder_61b,,,,6113,,,
+,,,,,,,,,,
+6114,CWE690,CWE690_NULL_Deref_From_Return__Properties_getProperty_equals_72a,CWE690_NULL_Deref_From_Return__Properties_getProperty_equals_72a,goodB2G,0,[46],6114,,,
+6114,CWE690,,CWE690_NULL_Deref_From_Return__Properties_getProperty_equals_72b,,,,6114,,,58
+,,,,,,,,,,
+6115,CWE690,CWE690_NULL_Deref_From_Return__System_getProperty_equals_21,CWE690_NULL_Deref_From_Return__System_getProperty_equals_21,bad,1,[34],6115,34,45,
+,,,,,,,,,,
+6116,CWE690,CWE690_NULL_Deref_From_Return__System_getProperty_equals_53a,CWE690_NULL_Deref_From_Return__System_getProperty_equals_53a,bad,1,[31],6116,31,,
+6116,CWE690,,CWE690_NULL_Deref_From_Return__System_getProperty_equals_53b,,,,6116,,,
+6116,CWE690,,CWE690_NULL_Deref_From_Return__System_getProperty_equals_53c,,,,6116,,,
+6116,CWE690,,CWE690_NULL_Deref_From_Return__System_getProperty_equals_53d,,,,6116,,30,
+,,,,,,,,,,
+6117,CWE690,CWE690_NULL_Deref_From_Return__getParameter_Servlet_trim_81a,CWE690_NULL_Deref_From_Return__getParameter_Servlet_trim_81a,bad,1,[31],6117,31,,
+6117,CWE690,,CWE690_NULL_Deref_From_Return__getParameter_Servlet_trim_81_bad,,,,6117,,30,
+,,,,,,,,,,
+6118,CWE690,CWE690_NULL_Deref_From_Return__Class_String_74a,CWE690_NULL_Deref_From_Return__Class_String_74a,bad,1,[30],6118,30,,
+6118,CWE690,,CWE690_NULL_Deref_From_Return__Class_String_74b,,,,6118,,30,
+,,,,,,,,,,
+6119,CWE690,CWE690_NULL_Deref_From_Return__Properties_getProperty_trim_52a,CWE690_NULL_Deref_From_Return__Properties_getProperty_trim_52a,goodG2B,0,[45],6119,,,82
+6119,CWE690,,CWE690_NULL_Deref_From_Return__Properties_getProperty_trim_52b,,,,6119,,,
+6119,CWE690,,CWE690_NULL_Deref_From_Return__Properties_getProperty_trim_52c,,,,6119,,,
+,,,,,,,,,,
+6120,CWE690,CWE690_NULL_Deref_From_Return__System_getProperty_trim_12,CWE690_NULL_Deref_From_Return__System_getProperty_trim_12,goodB2G,0,"[32, 45]",6120,,,117
+,,,,,,,,,,
+6121,CWE690,CWE690_NULL_Deref_From_Return__Properties_getProperty_trim_71a,CWE690_NULL_Deref_From_Return__Properties_getProperty_trim_71a,bad,1,[45],6121,45,,
+6121,CWE690,,CWE690_NULL_Deref_From_Return__Properties_getProperty_trim_71b,,,,6121,,31,
+,,,,,,,,,,
+6122,CWE690,CWE690_NULL_Deref_From_Return__getParameter_Servlet_trim_42,CWE690_NULL_Deref_From_Return__getParameter_Servlet_trim_42,goodB2G,0,[41],6122,,,85
+,,,,,,,,,,
+6123,CWE690,CWE690_NULL_Deref_From_Return__getParameter_Servlet_trim_21,CWE690_NULL_Deref_From_Return__getParameter_Servlet_trim_21,bad,1,[34],6123,34,45,
+,,,,,,,,,,
+6124,CWE690,CWE690_NULL_Deref_From_Return__Class_String_12,CWE690_NULL_Deref_From_Return__Class_String_12,bad,1,"[43, 30]",6124,30,43,
+,,,,,,,,,,
+6125,CWE690,CWE690_NULL_Deref_From_Return__getParameter_Servlet_equals_21,CWE690_NULL_Deref_From_Return__getParameter_Servlet_equals_21,goodB2G1,0,[34],6125,,,87
+,,,,,,,,,,
+6126,CWE690,CWE690_NULL_Deref_From_Return__getParameter_Servlet_equals_71a,CWE690_NULL_Deref_From_Return__getParameter_Servlet_equals_71a,goodB2G,0,[31],6126,,,
+6126,CWE690,,CWE690_NULL_Deref_From_Return__getParameter_Servlet_equals_71b,,,,6126,,,57
+,,,,,,,,,,
+6127,CWE690,CWE690_NULL_Deref_From_Return__getParameter_Servlet_trim_17,CWE690_NULL_Deref_From_Return__getParameter_Servlet_trim_17,goodB2G,0,"[36, 41]",6127,,,73
+,,,,,,,,,,
+6128,CWE690,CWE690_NULL_Deref_From_Return__getParameter_Servlet_equals_17,CWE690_NULL_Deref_From_Return__getParameter_Servlet_equals_17,goodB2G,0,"[36, 41]",6128,,,77
+,,,,,,,,,,
+6129,CWE690,CWE690_NULL_Deref_From_Return__Class_String_21,CWE690_NULL_Deref_From_Return__Class_String_21,goodB2G1,0,[32],6129,,,83
+,,,,,,,,,,
+6130,CWE690,CWE690_NULL_Deref_From_Return__System_getProperty_trim_66a,CWE690_NULL_Deref_From_Return__System_getProperty_trim_66a,bad,1,[31],6130,31,,
+6130,CWE690,,CWE690_NULL_Deref_From_Return__System_getProperty_trim_66b,,,,6130,,31,
+,,,,,,,,,,
+6131,CWE690,CWE690_NULL_Deref_From_Return__getParameter_Servlet_trim_01,CWE690_NULL_Deref_From_Return__getParameter_Servlet_trim_01,goodG2B,0,"[34, 31]",6131,,,52
+,,,,,,,,,,
+6132,CWE690,CWE690_NULL_Deref_From_Return__Class_String_42,CWE690_NULL_Deref_From_Return__Class_String_42,bad,1,[39],6132,29,39,
+,,,,,,,,,,
+6133,CWE690,CWE690_NULL_Deref_From_Return__Properties_getProperty_equals_71a,CWE690_NULL_Deref_From_Return__Properties_getProperty_equals_71a,goodG2B,0,[45],6133,,,82
+6133,CWE690,,CWE690_NULL_Deref_From_Return__Properties_getProperty_equals_71b,,,,6133,,,
+,,,,,,,,,,
+6134,CWE690,CWE690_NULL_Deref_From_Return__getParameter_Servlet_equals_31,CWE690_NULL_Deref_From_Return__getParameter_Servlet_equals_31,goodB2G,0,"[33, 41]",6134,,,95
+,,,,,,,,,,
+6135,CWE690,CWE690_NULL_Deref_From_Return__Properties_getProperty_equals_71a,CWE690_NULL_Deref_From_Return__Properties_getProperty_equals_71a,goodB2G,0,[45],6135,,,
+6135,CWE690,,CWE690_NULL_Deref_From_Return__Properties_getProperty_equals_71b,,,,6135,,,57
+,,,,,,,,,,
+6136,CWE690,CWE690_NULL_Deref_From_Return__Class_StringBuilder_74a,CWE690_NULL_Deref_From_Return__Class_StringBuilder_74a,bad,1,[30],6136,30,,
+6136,CWE690,,CWE690_NULL_Deref_From_Return__Class_StringBuilder_74b,,,,6136,,30,
+,,,,,,,,,,
+6137,CWE690,CWE690_NULL_Deref_From_Return__Class_String_71a,CWE690_NULL_Deref_From_Return__Class_String_71a,bad,1,[29],6137,29,,
+6137,CWE690,,CWE690_NULL_Deref_From_Return__Class_String_71b,,,,6137,,29,
+,,,,,,,,,,
+6138,CWE690,CWE690_NULL_Deref_From_Return__getParameter_Servlet_equals_72a,CWE690_NULL_Deref_From_Return__getParameter_Servlet_equals_72a,goodG2B,0,[32],6138,,,53
+6138,CWE690,,CWE690_NULL_Deref_From_Return__getParameter_Servlet_equals_72b,,,,6138,,,
+,,,,,,,,,,
+6139,CWE690,CWE690_NULL_Deref_From_Return__Properties_getProperty_equals_74a,CWE690_NULL_Deref_From_Return__Properties_getProperty_equals_74a,goodG2B,0,[46],6139,,,87
+6139,CWE690,,CWE690_NULL_Deref_From_Return__Properties_getProperty_equals_74b,,,,6139,,,
+,,,,,,,,,,
+6140,CWE690,CWE690_NULL_Deref_From_Return__Class_String_17,CWE690_NULL_Deref_From_Return__Class_String_17,bad,1,"[39, 34]",6140,34,39,
+,,,,,,,,,,
+6141,CWE690,CWE690_NULL_Deref_From_Return__getParameter_Servlet_equals_31,CWE690_NULL_Deref_From_Return__getParameter_Servlet_equals_31,goodG2B,0,"[33, 41]",6141,,,63
+,,,,,,,,,,
+6142,CWE690,CWE690_NULL_Deref_From_Return__System_getProperty_trim_52a,CWE690_NULL_Deref_From_Return__System_getProperty_trim_52a,bad,1,[31],6142,31,,
+6142,CWE690,,CWE690_NULL_Deref_From_Return__System_getProperty_trim_52b,,,,6142,,,
+6142,CWE690,,CWE690_NULL_Deref_From_Return__System_getProperty_trim_52c,,,,6142,,30,
+,,,,,,,,,,
+6143,CWE690,CWE690_NULL_Deref_From_Return__System_getProperty_trim_17,CWE690_NULL_Deref_From_Return__System_getProperty_trim_17,goodB2G,0,"[36, 41]",6143,,,73
+,,,,,,,,,,
+6144,CWE690,CWE690_NULL_Deref_From_Return__getParameter_Servlet_trim_22a,CWE690_NULL_Deref_From_Return__getParameter_Servlet_trim_22a,bad,1,[35],6144,35,,
+6144,CWE690,,CWE690_NULL_Deref_From_Return__getParameter_Servlet_trim_22b,,,,6144,,31,
+,,,,,,,,,,
+6145,CWE690,CWE690_NULL_Deref_From_Return__getParameter_Servlet_equals_17,CWE690_NULL_Deref_From_Return__getParameter_Servlet_equals_17,goodG2B,0,"[36, 41]",6145,,,54
+,,,,,,,,,,
+6146,CWE690,CWE690_NULL_Deref_From_Return__System_getProperty_equals_73a,CWE690_NULL_Deref_From_Return__System_getProperty_equals_73a,goodB2G,0,[32],6146,,,
+6146,CWE690,,CWE690_NULL_Deref_From_Return__System_getProperty_equals_73b,,,,6146,,,58
+,,,,,,,,,,
+6147,CWE690,CWE690_NULL_Deref_From_Return__Class_String_22a,CWE690_NULL_Deref_From_Return__Class_String_22a,goodG2B,0,[33],6147,,,82
+6147,CWE690,,CWE690_NULL_Deref_From_Return__Class_String_22b,,,,6147,,,
+,,,,,,,,,,
+6148,CWE690,CWE690_NULL_Deref_From_Return__System_getProperty_equals_02,CWE690_NULL_Deref_From_Return__System_getProperty_equals_02,bad,1,"[44, 32]",6148,32,44,
+,,,,,,,,,,
+6149,CWE690,CWE690_NULL_Deref_From_Return__Properties_getProperty_trim_53a,CWE690_NULL_Deref_From_Return__Properties_getProperty_trim_53a,goodB2G,0,[45],6149,,,
+6149,CWE690,,CWE690_NULL_Deref_From_Return__Properties_getProperty_trim_53b,,,,6149,,,
+6149,CWE690,,CWE690_NULL_Deref_From_Return__Properties_getProperty_trim_53c,,,,6149,,,
+6149,CWE690,,CWE690_NULL_Deref_From_Return__Properties_getProperty_trim_53d,,,,6149,,,52
+,,,,,,,,,,
+6150,CWE690,CWE690_NULL_Deref_From_Return__Class_String_54a,CWE690_NULL_Deref_From_Return__Class_String_54a,goodB2G,0,[29],6150,,,
+6150,CWE690,,CWE690_NULL_Deref_From_Return__Class_String_54b,,,,6150,,,
+6150,CWE690,,CWE690_NULL_Deref_From_Return__Class_String_54c,,,,6150,,,
+6150,CWE690,,CWE690_NULL_Deref_From_Return__Class_String_54d,,,,6150,,,
+6150,CWE690,,CWE690_NULL_Deref_From_Return__Class_String_54e,,,,6150,,,50
+,,,,,,,,,,
+6151,CWE690,CWE690_NULL_Deref_From_Return__getParameter_Servlet_trim_73a,CWE690_NULL_Deref_From_Return__getParameter_Servlet_trim_73a,goodB2G,0,[32],6151,,,
+6151,CWE690,,CWE690_NULL_Deref_From_Return__getParameter_Servlet_trim_73b,,,,6151,,,56
+,,,,,,,,,,
+6152,CWE690,CWE690_NULL_Deref_From_Return__Class_StringBuilder_01,CWE690_NULL_Deref_From_Return__Class_StringBuilder_01,goodB2G,0,"[32, 29]",6152,,,68
+,,,,,,,,,,
+6153,CWE690,CWE690_NULL_Deref_From_Return__Properties_getProperty_equals_68a,CWE690_NULL_Deref_From_Return__Properties_getProperty_equals_68a,bad,1,[46],6153,46,,
+,,,,,,,,,,
+6154,CWE690,CWE690_NULL_Deref_From_Return__Class_StringBuilder_72a,CWE690_NULL_Deref_From_Return__Class_StringBuilder_72a,goodG2B,0,[30],6154,,,51
+6154,CWE690,,CWE690_NULL_Deref_From_Return__Class_StringBuilder_72b,,,,6154,,,
+,,,,,,,,,,
+6155,CWE690,CWE690_NULL_Deref_From_Return__Class_StringBuilder_72a,CWE690_NULL_Deref_From_Return__Class_StringBuilder_72a,goodB2G,0,[30],6155,,,
+6155,CWE690,,CWE690_NULL_Deref_From_Return__Class_StringBuilder_72b,,,,6155,,,54
+,,,,,,,,,,
+6156,CWE690,CWE690_NULL_Deref_From_Return__System_getProperty_trim_75a,CWE690_NULL_Deref_From_Return__System_getProperty_trim_75a,bad,1,[36],6156,36,,
+6156,CWE690,,CWE690_NULL_Deref_From_Return__System_getProperty_trim_75b,,,,6156,,43,
+,,,,,,,,,,
+6157,CWE690,CWE690_NULL_Deref_From_Return__System_getProperty_equals_01,CWE690_NULL_Deref_From_Return__System_getProperty_equals_01,bad,1,"[31, 34]",6157,31,34,
+,,,,,,,,,,
+6158,CWE690,CWE690_NULL_Deref_From_Return__System_getProperty_equals_12,CWE690_NULL_Deref_From_Return__System_getProperty_equals_12,goodB2G,0,"[32, 45]",6158,,,121
+,,,,,,,,,,
+6159,CWE690,CWE690_NULL_Deref_From_Return__Properties_getProperty_equals_12,CWE690_NULL_Deref_From_Return__Properties_getProperty_equals_12,bad,1,"[45, 78]",6159,45,78,
+,,,,,,,,,,
+6160,CWE690,CWE690_NULL_Deref_From_Return__System_getProperty_equals_01,CWE690_NULL_Deref_From_Return__System_getProperty_equals_01,goodB2G,0,"[31, 34]",6160,,,72
+,,,,,,,,,,
+6161,CWE690,CWE690_NULL_Deref_From_Return__getParameter_Servlet_equals_16,CWE690_NULL_Deref_From_Return__getParameter_Servlet_equals_16,bad,1,"[33, 40]",6161,33,40,
+,,,,,,,,,,
+6162,CWE690,CWE690_NULL_Deref_From_Return__Class_String_66a,CWE690_NULL_Deref_From_Return__Class_String_66a,goodB2G,0,[29],6162,,,
+6162,CWE690,,CWE690_NULL_Deref_From_Return__Class_String_66b,,,,6162,,,53
+,,,,,,,,,,
+6163,CWE690,CWE690_NULL_Deref_From_Return__Properties_getProperty_equals_21,CWE690_NULL_Deref_From_Return__Properties_getProperty_equals_21,goodG2B,0,[48],6163,,,215
+,,,,,,,,,,
+6164,CWE690,CWE690_NULL_Deref_From_Return__Properties_getProperty_equals_54a,CWE690_NULL_Deref_From_Return__Properties_getProperty_equals_54a,goodB2G,0,[45],6164,,,
+6164,CWE690,,CWE690_NULL_Deref_From_Return__Properties_getProperty_equals_54b,,,,6164,,,
+6164,CWE690,,CWE690_NULL_Deref_From_Return__Properties_getProperty_equals_54c,,,,6164,,,
+6164,CWE690,,CWE690_NULL_Deref_From_Return__Properties_getProperty_equals_54d,,,,6164,,,
+6164,CWE690,,CWE690_NULL_Deref_From_Return__Properties_getProperty_equals_54e,,,,6164,,,54
+,,,,,,,,,,
+6165,CWE690,CWE690_NULL_Deref_From_Return__Properties_getProperty_equals_73a,CWE690_NULL_Deref_From_Return__Properties_getProperty_equals_73a,goodG2B,0,[46],6165,,,87
+6165,CWE690,,CWE690_NULL_Deref_From_Return__Properties_getProperty_equals_73b,,,,6165,,,
+,,,,,,,,,,
+6166,CWE690,CWE690_NULL_Deref_From_Return__Class_String_67a,CWE690_NULL_Deref_From_Return__Class_String_67a,goodB2G,0,[34],6166,,,
+6166,CWE690,,CWE690_NULL_Deref_From_Return__Class_String_67b,,,,6166,,,53
+,,,,,,,,,,
+6167,CWE690,CWE690_NULL_Deref_From_Return__getParameter_Servlet_equals_22a,CWE690_NULL_Deref_From_Return__getParameter_Servlet_equals_22a,goodB2G1,0,[35],6167,,,
+6167,CWE690,,CWE690_NULL_Deref_From_Return__getParameter_Servlet_equals_22b,,,,6167,,,57
+,,,,,,,,,,
+6168,CWE690,CWE690_NULL_Deref_From_Return__Properties_getProperty_equals_71a,CWE690_NULL_Deref_From_Return__Properties_getProperty_equals_71a,bad,1,[45],6168,45,,
+6168,CWE690,,CWE690_NULL_Deref_From_Return__Properties_getProperty_equals_71b,,,,6168,,31,
+,,,,,,,,,,
+6169,CWE690,CWE690_NULL_Deref_From_Return__Class_StringBuilder_42,CWE690_NULL_Deref_From_Return__Class_StringBuilder_42,goodB2G,0,[39],6169,,,83
+,,,,,,,,,,
+6170,CWE690,CWE690_NULL_Deref_From_Return__getParameter_Servlet_trim_61a,CWE690_NULL_Deref_From_Return__getParameter_Servlet_trim_61a,bad,1,[31],6170,,31,
+6170,CWE690,,CWE690_NULL_Deref_From_Return__getParameter_Servlet_trim_61b,,,,6170,31,,
+,,,,,,,,,,
+6171,CWE690,CWE690_NULL_Deref_From_Return__System_getProperty_equals_16,CWE690_NULL_Deref_From_Return__System_getProperty_equals_16,goodB2G,0,"[33, 40]",6171,,,87

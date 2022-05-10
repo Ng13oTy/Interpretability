@@ -1,0 +1,4 @@
+case_id,cwe,main_file,java_file,func_name,target,old_labeled_lines,case_id,bad_source_lines,bad_sink_lines,fixed_lines
+6047,CWE674,CWE674_Uncontrolled_Recursion__missing_base_01,CWE674_Uncontrolled_Recursion__missing_base_01,bad,1,[18],6047,,18,
+,,,,,,,,,,
+6048,CWE674,CWE674_Uncontrolled_Recursion__long_01,CWE674_Uncontrolled_Recursion__long_01,good1,0,[19],6048,,,37

@@ -1,0 +1,4 @@
+case_id,cwe,main_file,java_file,func_name,target,old_labeled_lines,case_id,bad_source_lines,bad_sink_lines,fixed_lines
+6177,CWE775,CWE775_Missing_Release_of_File_Descriptor_or_Handle__FileReader_01,CWE775_Missing_Release_of_File_Descriptor_or_Handle__FileReader_01,bad,1,[38],6177,26,,
+,,,,,,,,,,
+6178,CWE775,CWE775_Missing_Release_of_File_Descriptor_or_Handle__ZipFile_01,CWE775_Missing_Release_of_File_Descriptor_or_Handle__ZipFile_01,good1,0,[38],6178,,,65

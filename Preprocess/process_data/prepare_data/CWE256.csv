@@ -1,0 +1,47 @@
+case_id,cwe,main_file,java_file,func_name,target,old_labeled_lines,case_id,bad_source_lines,bad_sink_lines,fixed_lines
+4194,CWE256,CWE256_Plaintext_Storage_of_Password__basic_68a,CWE256_Plaintext_Storage_of_Password__basic_68a,goodG2B,0,[74],4194,,,129
+,,,,,,,,,,
+4195,CWE256,CWE256_Plaintext_Storage_of_Password__basic_42,CWE256_Plaintext_Storage_of_Password__basic_42,goodB2G,0,[86],4195,,,252
+,,,,,,,,,,
+4196,CWE256,CWE256_Plaintext_Storage_of_Password__basic_73a,CWE256_Plaintext_Storage_of_Password__basic_73a,bad,1,[74],4196,51,,
+4196,CWE256,,CWE256_Plaintext_Storage_of_Password__basic_73b,,,,4196,,45,
+,,,,,,,,,,
+4197,CWE256,CWE256_Plaintext_Storage_of_Password__basic_45,CWE256_Plaintext_Storage_of_Password__basic_45,bad,1,[113],4197,90,53,
+,,,,,,,,,,
+4198,CWE256,CWE256_Plaintext_Storage_of_Password__basic_31,CWE256_Plaintext_Storage_of_Password__basic_31,bad,1,"[86, 79]",4198,56,90,
+,,,,,,,,,,
+4199,CWE256,CWE256_Plaintext_Storage_of_Password__basic_02,CWE256_Plaintext_Storage_of_Password__basic_02,bad,1,"[75, 86]",4199,53,89,
+,,,,,,,,,,
+4200,CWE256,CWE256_Plaintext_Storage_of_Password__basic_61a,CWE256_Plaintext_Storage_of_Password__basic_61a,bad,1,[40],4200,,44,
+4200,CWE256,,CWE256_Plaintext_Storage_of_Password__basic_61b,,,,4200,50,,
+,,,,,,,,,,
+4201,CWE256,CWE256_Plaintext_Storage_of_Password__basic_74a,CWE256_Plaintext_Storage_of_Password__basic_74a,goodG2B,0,[74],4201,,,134
+4201,CWE256,,CWE256_Plaintext_Storage_of_Password__basic_74b,,,,4201,,,
+,,,,,,,,,,
+4202,CWE256,CWE256_Plaintext_Storage_of_Password__basic_12,CWE256_Plaintext_Storage_of_Password__basic_12,goodB2G,0,"[75, 129]",4202,,,437
+,,,,,,,,,,
+4203,CWE256,CWE256_Plaintext_Storage_of_Password__basic_53a,CWE256_Plaintext_Storage_of_Password__basic_53a,goodG2B,0,[73],4203,,,129
+4203,CWE256,,CWE256_Plaintext_Storage_of_Password__basic_53b,,,,4203,,,
+4203,CWE256,,CWE256_Plaintext_Storage_of_Password__basic_53c,,,,4203,,,
+4203,CWE256,,CWE256_Plaintext_Storage_of_Password__basic_53d,,,,4203,,,
+,,,,,,,,,,
+4204,CWE256,CWE256_Plaintext_Storage_of_Password__basic_72a,CWE256_Plaintext_Storage_of_Password__basic_72a,goodB2G,0,[74],4204,,,
+4204,CWE256,,CWE256_Plaintext_Storage_of_Password__basic_72b,,,,4204,,,114
+,,,,,,,,,,
+4205,CWE256,CWE256_Plaintext_Storage_of_Password__basic_12,CWE256_Plaintext_Storage_of_Password__basic_12,goodG2B,0,"[75, 129]",4205,,,239
+,,,,,,,,,,
+4206,CWE256,CWE256_Plaintext_Storage_of_Password__basic_21,CWE256_Plaintext_Storage_of_Password__basic_21,bad,1,[80],4206,57,93,
+,,,,,,,,,,
+4207,CWE256,CWE256_Plaintext_Storage_of_Password__basic_73a,CWE256_Plaintext_Storage_of_Password__basic_73a,goodG2B,0,[74],4207,,,134
+4207,CWE256,,CWE256_Plaintext_Storage_of_Password__basic_73b,,,,4207,,,
+,,,,,,,,,,
+4208,CWE256,CWE256_Plaintext_Storage_of_Password__basic_73a,CWE256_Plaintext_Storage_of_Password__basic_73a,goodB2G,0,[74],4208,,,
+4208,CWE256,,CWE256_Plaintext_Storage_of_Password__basic_73b,,,,4208,,,114
+,,,,,,,,,,
+4209,CWE256,CWE256_Plaintext_Storage_of_Password__basic_54a,CWE256_Plaintext_Storage_of_Password__basic_54a,goodG2B,0,[73],4209,,,129
+4209,CWE256,,CWE256_Plaintext_Storage_of_Password__basic_54b,,,,4209,,,
+4209,CWE256,,CWE256_Plaintext_Storage_of_Password__basic_54c,,,,4209,,,
+4209,CWE256,,CWE256_Plaintext_Storage_of_Password__basic_54d,,,,4209,,,
+4209,CWE256,,CWE256_Plaintext_Storage_of_Password__basic_54e,,,,4209,,,
+,,,,,,,,,,
+4210,CWE256,CWE256_Plaintext_Storage_of_Password__basic_16,CWE256_Plaintext_Storage_of_Password__basic_16,goodG2B,0,"[76, 82]",4210,,,153

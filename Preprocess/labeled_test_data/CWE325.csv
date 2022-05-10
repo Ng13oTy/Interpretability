@@ -1,0 +1,6 @@
+case_id,cwe,main_file,java_file,func_name,target,old_labeled_lines,case_id,bad_source_lines,bad_sink_lines,fixed_lines
+4413,CWE325,CWE325_Missing_Required_Cryptographic_Step__MessageDigest_update_01,CWE325_Missing_Required_Cryptographic_Step__MessageDigest_update_01,bad,1,[30],4413,,31,
+,,,,,,,,,,
+4414,CWE325,CWE325_Missing_Required_Cryptographic_Step__MessageDigest_update_12,CWE325_Missing_Required_Cryptographic_Step__MessageDigest_update_12,bad,1,[30],4414,,30,
+,,,,,,,,,,
+4415,CWE325,CWE325_Missing_Required_Cryptographic_Step__MessageDigest_update_17,CWE325_Missing_Required_Cryptographic_Step__MessageDigest_update_17,good1,0,[30],4415,,,42

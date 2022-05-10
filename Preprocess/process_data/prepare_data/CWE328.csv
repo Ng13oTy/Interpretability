@@ -1,0 +1,6 @@
+case_id,cwe,main_file,java_file,func_name,target,old_labeled_lines,case_id,bad_source_lines,bad_sink_lines,fixed_lines
+4419,CWE328,CWE328_Reversible_One_Way_Hash__MD2_12,CWE328_Reversible_One_Way_Hash__MD2_12,bad,1,"[41, 31, 30]",4419,,30,
+,,,,,,,,,,
+4420,CWE328,CWE328_Reversible_One_Way_Hash__MD2_17,CWE328_Reversible_One_Way_Hash__MD2_17,good1,0,"[30, 31]",4420,,,43
+,,,,,,,,,,
+4421,CWE328,CWE328_Reversible_One_Way_Hash__MD5_17,CWE328_Reversible_One_Way_Hash__MD5_17,bad,1,"[30, 31]",4421,,30,

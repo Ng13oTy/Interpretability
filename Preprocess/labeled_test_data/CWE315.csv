@@ -1,0 +1,46 @@
+case_id,cwe,main_file,java_file,func_name,target,old_labeled_lines,case_id,bad_source_lines,bad_sink_lines,fixed_lines
+4249,CWE315,CWE315_Plaintext_Storage_in_Cookie__Servlet_74a,CWE315_Plaintext_Storage_in_Cookie__Servlet_74a,goodB2G,0,[39],4249,,,
+4249,CWE315,,CWE315_Plaintext_Storage_in_Cookie__Servlet_74b,,,,4249,,,62
+,,,,,,,,,,
+4250,CWE315,CWE315_Plaintext_Storage_in_Cookie__Servlet_73a,CWE315_Plaintext_Storage_in_Cookie__Servlet_73a,goodG2B,0,[39],4250,,,68
+4250,CWE315,,CWE315_Plaintext_Storage_in_Cookie__Servlet_73b,,,,4250,,,
+,,,,,,,,,,
+4251,CWE315,CWE315_Plaintext_Storage_in_Cookie__Servlet_67a,CWE315_Plaintext_Storage_in_Cookie__Servlet_67a,goodG2B,0,[43],4251,,,70
+4251,CWE315,,CWE315_Plaintext_Storage_in_Cookie__Servlet_67b,,,,4251,,,
+,,,,,,,,,,
+4252,CWE315,CWE315_Plaintext_Storage_in_Cookie__Servlet_17,CWE315_Plaintext_Storage_in_Cookie__Servlet_17,goodB2G,0,"[43, 49]",4252,,,97
+,,,,,,,,,,
+4253,CWE315,CWE315_Plaintext_Storage_in_Cookie__Servlet_45,CWE315_Plaintext_Storage_in_Cookie__Servlet_45,goodB2G,0,[53],4253,,,107
+,,,,,,,,,,
+4254,CWE315,CWE315_Plaintext_Storage_in_Cookie__Servlet_73a,CWE315_Plaintext_Storage_in_Cookie__Servlet_73a,goodB2G,0,[39],4254,,,
+4254,CWE315,,CWE315_Plaintext_Storage_in_Cookie__Servlet_73b,,,,4254,,,62
+,,,,,,,,,,
+4255,CWE315,CWE315_Plaintext_Storage_in_Cookie__Servlet_52a,CWE315_Plaintext_Storage_in_Cookie__Servlet_52a,bad,1,[38],4255,38,,
+4255,CWE315,,CWE315_Plaintext_Storage_in_Cookie__Servlet_52b,,,,4255,,,
+4255,CWE315,,CWE315_Plaintext_Storage_in_Cookie__Servlet_52c,,,,4255,,34,
+,,,,,,,,,,
+4256,CWE315,CWE315_Plaintext_Storage_in_Cookie__Servlet_42,CWE315_Plaintext_Storage_in_Cookie__Servlet_42,bad,1,[50],4256,38,50,
+,,,,,,,,,,
+4257,CWE315,CWE315_Plaintext_Storage_in_Cookie__Servlet_02,CWE315_Plaintext_Storage_in_Cookie__Servlet_02,bad,1,"[38, 51]",4257,38,51,
+,,,,,,,,,,
+4258,CWE315,CWE315_Plaintext_Storage_in_Cookie__Servlet_01,CWE315_Plaintext_Storage_in_Cookie__Servlet_01,goodB2G,0,"[38, 43]",4258,,,94
+,,,,,,,,,,
+4259,CWE315,CWE315_Plaintext_Storage_in_Cookie__Servlet_42,CWE315_Plaintext_Storage_in_Cookie__Servlet_42,goodB2G,0,[50],4259,,,109
+,,,,,,,,,,
+4260,CWE315,CWE315_Plaintext_Storage_in_Cookie__Servlet_66a,CWE315_Plaintext_Storage_in_Cookie__Servlet_66a,goodB2G,0,[38],4260,,,
+4260,CWE315,,CWE315_Plaintext_Storage_in_Cookie__Servlet_66b,,,,4260,,,61
+,,,,,,,,,,
+4261,CWE315,CWE315_Plaintext_Storage_in_Cookie__Servlet_16,CWE315_Plaintext_Storage_in_Cookie__Servlet_16,bad,1,"[47, 39]",4261,39,47,
+,,,,,,,,,,
+4262,CWE315,CWE315_Plaintext_Storage_in_Cookie__Servlet_72a,CWE315_Plaintext_Storage_in_Cookie__Servlet_72a,goodG2B,0,[39],4262,,,68
+4262,CWE315,,CWE315_Plaintext_Storage_in_Cookie__Servlet_72b,,,,4262,,,
+,,,,,,,,,,
+4263,CWE315,CWE315_Plaintext_Storage_in_Cookie__Servlet_73a,CWE315_Plaintext_Storage_in_Cookie__Servlet_73a,bad,1,[39],4263,39,,
+4263,CWE315,,CWE315_Plaintext_Storage_in_Cookie__Servlet_73b,,,,4263,,36,
+,,,,,,,,,,
+4264,CWE315,CWE315_Plaintext_Storage_in_Cookie__Servlet_45,CWE315_Plaintext_Storage_in_Cookie__Servlet_45,goodG2B,0,[53],4264,,,90
+,,,,,,,,,,
+4265,CWE315,CWE315_Plaintext_Storage_in_Cookie__Servlet_74a,CWE315_Plaintext_Storage_in_Cookie__Servlet_74a,bad,1,[39],4265,39,,
+4265,CWE315,,CWE315_Plaintext_Storage_in_Cookie__Servlet_74b,,,,4265,,36,
+,,,,,,,,,,
+4266,CWE315,CWE315_Plaintext_Storage_in_Cookie__Servlet_02,CWE315_Plaintext_Storage_in_Cookie__Servlet_02,goodB2G1,0,"[38, 51]",4266,,,155

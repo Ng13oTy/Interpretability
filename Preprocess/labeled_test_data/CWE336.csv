@@ -1,0 +1,4 @@
+case_id,cwe,main_file,java_file,func_name,target,old_labeled_lines,case_id,bad_source_lines,bad_sink_lines,fixed_lines
+4424,CWE336,CWE336_Same_Seed_in_PRNG__basic_12,CWE336_Same_Seed_in_PRNG__basic_12,bad,1,[31],4424,28,31,
+,,,,,,,,,,
+4425,CWE336,CWE336_Same_Seed_in_PRNG__basic_17,CWE336_Same_Seed_in_PRNG__basic_17,good1,0,[31],4425,,,

@@ -1,0 +1,4 @@
+case_id,cwe,main_file,java_file,func_name,target,old_labeled_lines,case_id,bad_source_lines,bad_sink_lines,fixed_lines
+4426,CWE338,CWE338_Weak_PRNG__util_17,CWE338_Weak_PRNG__util_17,bad,1,[31],4426,,31,
+,,,,,,,,,,
+4427,CWE338,CWE338_Weak_PRNG__math_17,CWE338_Weak_PRNG__math_17,good1,0,[29],4427,,,39

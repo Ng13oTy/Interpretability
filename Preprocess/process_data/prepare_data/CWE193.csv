@@ -1,0 +1,10 @@
+case_id,cwe,main_file,java_file,func_name,target,old_labeled_lines,case_id,bad_source_lines,bad_sink_lines,fixed_lines
+3883,CWE193,CWE193_Off_by_One_Error__while_12,CWE193_Off_by_One_Error__while_12,bad,1,[29],3883,,29,
+,,,,,,,,,,
+3884,CWE193,CWE193_Off_by_One_Error__for_01,CWE193_Off_by_One_Error__for_01,good1,0,[28],3884,,,46
+,,,,,,,,,,
+3885,CWE193,CWE193_Off_by_One_Error__while_01,CWE193_Off_by_One_Error__while_01,good1,0,[29],3885,,,49
+,,,,,,,,,,
+3886,CWE193,CWE193_Off_by_One_Error__while_01,CWE193_Off_by_One_Error__while_01,bad,1,[29],3886,,29,
+,,,,,,,,,,
+3887,CWE193,CWE193_Off_by_One_Error__do_01,CWE193_Off_by_One_Error__do_01,bad,1,[33],3887,,33,

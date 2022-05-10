@@ -1,0 +1,4 @@
+case_id,cwe,main_file,java_file,func_name,target,old_labeled_lines,case_id,bad_source_lines,bad_sink_lines,fixed_lines
+4191,CWE252,CWE252_Unchecked_Return_Value__FileInputStream_17,CWE252_Unchecked_Return_Value__FileInputStream_17,bad,1,[40],4191,,40,
+,,,,,,,,,,
+4192,CWE252,CWE252_Unchecked_Return_Value__FileInputStream_17,CWE252_Unchecked_Return_Value__FileInputStream_17,good1,0,[40],4192,,,86

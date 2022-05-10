@@ -1,0 +1,4 @@
+case_id,cwe,main_file,java_file,func_name,target,old_labeled_lines,case_id,bad_source_lines,bad_sink_lines,fixed_lines
+6175,CWE772,CWE772_Missing_Release_of_Resource__console_InputStreamReader_01,CWE772_Missing_Release_of_Resource__console_InputStreamReader_01,bad,1,[42],6175,50,,
+,,,,,,,,,,
+6176,CWE772,CWE772_Missing_Release_of_Resource__db_Connection_01,CWE772_Missing_Release_of_Resource__db_Connection_01,good1,0,[48],6176,,,83

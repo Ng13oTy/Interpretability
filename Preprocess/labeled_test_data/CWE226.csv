@@ -1,0 +1,4 @@
+case_id,cwe,main_file,java_file,func_name,target,old_labeled_lines,case_id,bad_source_lines,bad_sink_lines,fixed_lines
+4106,CWE226,CWE226_Sensitive_Information_Uncleared_Before_Release__basic_12,CWE226_Sensitive_Information_Uncleared_Before_Release__basic_12,good1,0,[59],4106,,,196
+,,,,,,,,,,
+4107,CWE226,CWE226_Sensitive_Information_Uncleared_Before_Release__basic_17,CWE226_Sensitive_Information_Uncleared_Before_Release__basic_17,bad,1,[59],4107,38,45,

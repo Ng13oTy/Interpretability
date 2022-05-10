@@ -1,0 +1,4 @@
+case_id,cwe,main_file,java_file,func_name,target,old_labeled_lines,case_id,bad_source_lines,bad_sink_lines,fixed_lines
+5633,CWE478,CWE478_Missing_Default_Case_in_Switch__basic_12,CWE478_Missing_Default_Case_in_Switch__basic_12,good1,0,[41],5633,32,,
+,,,,,,,,,,
+5634,CWE478,CWE478_Missing_Default_Case_in_Switch__basic_12,CWE478_Missing_Default_Case_in_Switch__basic_12,bad,1,[41],5634,,,85

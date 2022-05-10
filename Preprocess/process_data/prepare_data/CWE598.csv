@@ -1,0 +1,2 @@
+case_id,cwe,main_file,java_file,func_name,target,old_labeled_lines,case_id,bad_source_lines,bad_sink_lines,fixed_lines
+5694,CWE598,CWE598_Information_Exposure_QueryString__Servlet_12,CWE598_Information_Exposure_QueryString__Servlet_12,bad,1,[28],5694,,28,

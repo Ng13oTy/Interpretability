@@ -1,0 +1,4 @@
+case_id,cwe,main_file,java_file,func_name,target,old_labeled_lines,case_id,bad_source_lines,bad_sink_lines,fixed_lines
+5649,CWE533,CWE533_Info_Exposure_Server_Log__Servlet_01,CWE533_Info_Exposure_Server_Log__Servlet_01,good1,0,[38],5649,,,65
+,,,,,,,,,,
+5650,CWE533,CWE533_Info_Exposure_Server_Log__Servlet_12,CWE533_Info_Exposure_Server_Log__Servlet_12,bad,1,[37],5650,,37,

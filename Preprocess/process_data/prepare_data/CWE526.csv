@@ -1,0 +1,4 @@
+case_id,cwe,main_file,java_file,func_name,target,old_labeled_lines,case_id,bad_source_lines,bad_sink_lines,fixed_lines
+5647,CWE526,CWE526_Info_Exposure_Environment_Variables__Servlet_12,CWE526_Info_Exposure_Environment_Variables__Servlet_12,bad,1,[29],5647,,29,
+,,,,,,,,,,
+5648,CWE526,CWE526_Info_Exposure_Environment_Variables__Servlet_17,CWE526_Info_Exposure_Environment_Variables__Servlet_17,good1,0,[29],5648,,,39

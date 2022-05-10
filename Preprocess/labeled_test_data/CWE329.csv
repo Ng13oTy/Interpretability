@@ -1,0 +1,4 @@
+case_id,cwe,main_file,java_file,func_name,target,old_labeled_lines,case_id,bad_source_lines,bad_sink_lines,fixed_lines
+4422,CWE329,CWE329_Not_Using_Random_IV_with_CBC_Mode__basic_17,CWE329_Not_Using_Random_IV_with_CBC_Mode__basic_17,bad,1,[44],4422,,44,
+,,,,,,,,,,
+4423,CWE329,CWE329_Not_Using_Random_IV_with_CBC_Mode__basic_12,CWE329_Not_Using_Random_IV_with_CBC_Mode__basic_12,good1,0,[44],4423,,,90

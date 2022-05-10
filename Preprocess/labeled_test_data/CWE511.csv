@@ -1,0 +1,8 @@
+case_id,cwe,main_file,java_file,func_name,target,old_labeled_lines,case_id,bad_source_lines,bad_sink_lines,fixed_lines
+5641,CWE511,CWE511_Logic_Time_Bomb__time_12,CWE511_Logic_Time_Bomb__time_12,good1,0,[32],5641,,,63
+,,,,,,,,,,
+5642,CWE511,CWE511_Logic_Time_Bomb__time_17,CWE511_Logic_Time_Bomb__time_17,good1,0,[32],5642,,,48
+,,,,,,,,,,
+5643,CWE511,CWE511_Logic_Time_Bomb__time_01,CWE511_Logic_Time_Bomb__time_01,bad,1,[33],5643,,33,
+,,,,,,,,,,
+5644,CWE511,CWE511_Logic_Time_Bomb__counter_01,CWE511_Logic_Time_Bomb__counter_01,bad,1,[30],5644,,30,

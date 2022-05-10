@@ -1,0 +1,4 @@
+case_id,cwe,main_file,java_file,func_name,target,old_labeled_lines,case_id,bad_source_lines,bad_sink_lines,fixed_lines
+5637,CWE482,CWE482_Comparing_Instead_of_Assigning__basic_12,CWE482_Comparing_Instead_of_Assigning__basic_12,good1,0,[30],5637,,,60
+,,,,,,,,,,
+5638,CWE482,CWE482_Comparing_Instead_of_Assigning__basic_01,CWE482_Comparing_Instead_of_Assigning__basic_01,bad,1,[31],5638,,31,

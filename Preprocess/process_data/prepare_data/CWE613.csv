@@ -1,0 +1,4 @@
+case_id,cwe,main_file,java_file,func_name,target,old_labeled_lines,case_id,bad_source_lines,bad_sink_lines,fixed_lines
+5903,CWE613,CWE613_Insufficient_Session_Expiration__Servlet_12,CWE613_Insufficient_Session_Expiration__Servlet_12,bad,1,[30],5903,,30,
+,,,,,,,,,,
+5904,CWE613,CWE613_Insufficient_Session_Expiration__Servlet_12,CWE613_Insufficient_Session_Expiration__Servlet_12,good1,0,[30],5904,,,60

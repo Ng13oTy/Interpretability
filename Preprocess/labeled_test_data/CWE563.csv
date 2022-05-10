@@ -1,0 +1,37 @@
+case_id,cwe,main_file,java_file,func_name,target,old_labeled_lines,case_id,bad_source_lines,bad_sink_lines,fixed_lines
+5659,CWE563,CWE563_Unused_Variable__unused_value_int_17,CWE563_Unused_Variable__unused_value_int_17,bad,1,"[34, 40]",5659,35,40,
+,,,,,,,,,,
+5660,CWE563,CWE563_Unused_Variable__unused_value_int_81a,CWE563_Unused_Variable__unused_value_int_81a,goodG2B,0,[29],5660,,,51
+,,,,,,,,,,
+5661,CWE563,CWE563_Unused_Variable__unused_init_variable_int_81a,CWE563_Unused_Variable__unused_init_variable_int_81a,goodB2G,0,[28],5661,,,
+5661,CWE563,,CWE563_Unused_Variable__unused_init_variable_int_81_goodB2G,,,,5661,,,28
+,,,,,,,,,,
+5662,CWE563,CWE563_Unused_Variable__unused_init_variable_String_12,CWE563_Unused_Variable__unused_init_variable_String_12,goodB2G,0,"[28, 35]",5662,,,60
+,,,,,,,,,,
+5663,CWE563,CWE563_Unused_Variable__unused_value_StringBuilder_81a,CWE563_Unused_Variable__unused_value_StringBuilder_81a,goodG2B,0,[29],5663,,,51
+,,,,,,,,,,
+5664,CWE563,CWE563_Unused_Variable__unused_init_variable_long_17,CWE563_Unused_Variable__unused_init_variable_long_17,goodB2G,0,"[28, 35]",5664,,,52
+,,,,,,,,,,
+5665,CWE563,CWE563_Unused_Variable__unused_init_variable_StringBuilder_01,CWE563_Unused_Variable__unused_init_variable_StringBuilder_01,goodB2G,0,"[29, 34]",5665,,,54
+,,,,,,,,,,
+5666,CWE563,CWE563_Unused_Variable__unused_init_variable_int_17,CWE563_Unused_Variable__unused_init_variable_int_17,goodB2G,0,"[28, 35]",5666,,,52
+,,,,,,,,,,
+5667,CWE563,CWE563_Unused_Variable__unused_uninit_variable_String_12,CWE563_Unused_Variable__unused_uninit_variable_String_12,goodB2G,0,"[34, 28]",5667,,,61
+,,,,,,,,,,
+5668,CWE563,CWE563_Unused_Variable__unused_value_StringBuilder_17,CWE563_Unused_Variable__unused_value_StringBuilder_17,bad,1,"[34, 40]",5668,35,40,
+,,,,,,,,,,
+5669,CWE563,CWE563_Unused_Variable__unused_value_int_01,CWE563_Unused_Variable__unused_value_int_01,goodG2B,0,"[29, 33]",5669,,,55
+,,,,,,,,,,
+5670,CWE563,CWE563_Unused_Variable__unused_value_String_12,CWE563_Unused_Variable__unused_value_String_12,bad,1,"[30, 46]",5670,30,46,
+,,,,,,,,,,
+5671,CWE563,CWE563_Unused_Variable__unused_value_int_12,CWE563_Unused_Variable__unused_value_int_12,bad,1,"[46, 30]",5671,30,46,
+,,,,,,,,,,
+5672,CWE563,CWE563_Unused_Variable__unused_value_StringBuilder_12,CWE563_Unused_Variable__unused_value_StringBuilder_12,goodB2G,0,"[30, 46]",5672,,,121
+,,,,,,,,,,
+5673,CWE563,CWE563_Unused_Variable__unused_value_String_12,CWE563_Unused_Variable__unused_value_String_12,goodB2G,0,"[30, 46]",5673,,,121
+,,,,,,,,,,
+5674,CWE563,CWE563_Unused_Variable__unused_init_variable_int_12,CWE563_Unused_Variable__unused_init_variable_int_12,goodB2G,0,"[35, 28]",5674,,,60
+,,,,,,,,,,
+5675,CWE563,CWE563_Unused_Variable__unused_init_variable_long_12,CWE563_Unused_Variable__unused_init_variable_long_12,bad,1,"[35, 28]",5675,29,,
+,,,,,,,,,,
+5676,CWE563,CWE563_Unused_Variable__unused_uninit_variable_long_17,CWE563_Unused_Variable__unused_uninit_variable_long_17,goodB2G,0,"[28, 34]",5676,,,51

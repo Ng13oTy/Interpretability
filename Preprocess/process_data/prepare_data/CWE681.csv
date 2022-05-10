@@ -1,0 +1,10 @@
+case_id,cwe,main_file,java_file,func_name,target,old_labeled_lines,case_id,bad_source_lines,bad_sink_lines,fixed_lines
+6049,CWE681,CWE681_Incorrect_Conversion_Between_Numeric_Types__float2int_12,CWE681_Incorrect_Conversion_Between_Numeric_Types__float2int_12,good1,0,[49],6049,,,171
+,,,,,,,,,,
+6050,CWE681,CWE681_Incorrect_Conversion_Between_Numeric_Types__floatNaN2int_12,CWE681_Incorrect_Conversion_Between_Numeric_Types__floatNaN2int_12,good1,0,[52],6050,,,171
+,,,,,,,,,,
+6051,CWE681,CWE681_Incorrect_Conversion_Between_Numeric_Types__floatNaN2int_12,CWE681_Incorrect_Conversion_Between_Numeric_Types__floatNaN2int_12,bad,1,[52],6051,,52,
+,,,,,,,,,,
+6052,CWE681,CWE681_Incorrect_Conversion_Between_Numeric_Types__float2int_17,CWE681_Incorrect_Conversion_Between_Numeric_Types__float2int_17,bad,1,[49],6052,,49,
+,,,,,,,,,,
+6053,CWE681,CWE681_Incorrect_Conversion_Between_Numeric_Types__double2float_01,CWE681_Incorrect_Conversion_Between_Numeric_Types__double2float_01,bad,1,[57],6053,,57,

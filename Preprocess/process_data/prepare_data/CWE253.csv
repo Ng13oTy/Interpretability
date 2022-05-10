@@ -1,0 +1,2 @@
+case_id,cwe,main_file,java_file,func_name,target,old_labeled_lines,case_id,bad_source_lines,bad_sink_lines,fixed_lines
+4193,CWE253,CWE253_Incorrect_Check_of_Function_Return_Value__FileInputStream_17,CWE253_Incorrect_Check_of_Function_Return_Value__FileInputStream_17,bad,1,[39],4193,,39,

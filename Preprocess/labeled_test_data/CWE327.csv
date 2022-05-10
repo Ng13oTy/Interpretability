@@ -1,0 +1,6 @@
+case_id,cwe,main_file,java_file,func_name,target,old_labeled_lines,case_id,bad_source_lines,bad_sink_lines,fixed_lines
+4416,CWE327,CWE327_Use_Broken_Crypto__3DES_01,CWE327_Use_Broken_Crypto__3DES_01,bad,1,[41],4416,,41,
+,,,,,,,,,,
+4417,CWE327,CWE327_Use_Broken_Crypto__DES_01,CWE327_Use_Broken_Crypto__DES_01,bad,1,[41],4417,,41,
+,,,,,,,,,,
+4418,CWE327,CWE327_Use_Broken_Crypto__3DES_12,CWE327_Use_Broken_Crypto__3DES_12,good1,0,[38],4418,,,82

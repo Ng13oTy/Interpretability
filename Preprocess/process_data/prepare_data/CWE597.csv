@@ -1,0 +1,4 @@
+case_id,cwe,main_file,java_file,func_name,target,old_labeled_lines,case_id,bad_source_lines,bad_sink_lines,fixed_lines
+5692,CWE597,CWE597_Wrong_Operator_String_Comparison__basic_17,CWE597_Wrong_Operator_String_Comparison__basic_17,good1,0,[46],5692,,,108
+,,,,,,,,,,
+5693,CWE597,CWE597_Wrong_Operator_String_Comparison__basic_12,CWE597_Wrong_Operator_String_Comparison__basic_12,bad,1,[46],5693,,46,

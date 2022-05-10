@@ -1,0 +1,31 @@
+case_id,cwe,main_file,java_file,func_name,target,old_labeled_lines,case_id,bad_source_lines,bad_sink_lines,fixed_lines
+5677,CWE566,CWE566_Authorization_Bypass_Through_SQL_Primary__Servlet_21,CWE566_Authorization_Bypass_Through_SQL_Primary__Servlet_21,bad,1,"[60, 114]",5677,114,60,
+,,,,,,,,,,
+5678,CWE566,CWE566_Authorization_Bypass_Through_SQL_Primary__Servlet_12,CWE566_Authorization_Bypass_Through_SQL_Primary__Servlet_12,bad,1,"[66, 35]",5678,35,66,
+,,,,,,,,,,
+5679,CWE566,CWE566_Authorization_Bypass_Through_SQL_Primary__Servlet_72a,CWE566_Authorization_Bypass_Through_SQL_Primary__Servlet_72a,goodG2B,0,[31],5679,,,51
+5679,CWE566,,CWE566_Authorization_Bypass_Through_SQL_Primary__Servlet_72b,,,,5679,,,
+,,,,,,,,,,
+5680,CWE566,CWE566_Authorization_Bypass_Through_SQL_Primary__Servlet_17,CWE566_Authorization_Bypass_Through_SQL_Primary__Servlet_17,goodG2B,0,"[34, 56]",5680,,,110
+,,,,,,,,,,
+5681,CWE566,CWE566_Authorization_Bypass_Through_SQL_Primary__Servlet_01,CWE566_Authorization_Bypass_Through_SQL_Primary__Servlet_01,goodG2B,0,"[57, 34]",5681,,,115
+,,,,,,,,,,
+5682,CWE566,CWE566_Authorization_Bypass_Through_SQL_Primary__Servlet_45,CWE566_Authorization_Bypass_Through_SQL_Primary__Servlet_45,goodG2B,0,[110],5682,,,199
+,,,,,,,,,,
+5683,CWE566,CWE566_Authorization_Bypass_Through_SQL_Primary__Servlet_31,CWE566_Authorization_Bypass_Through_SQL_Primary__Servlet_31,bad,1,"[37, 65]",5683,37,65,
+,,,,,,,,,,
+5684,CWE566,CWE566_Authorization_Bypass_Through_SQL_Primary__Servlet_02,CWE566_Authorization_Bypass_Through_SQL_Primary__Servlet_02,bad,1,"[65, 35]",5684,35,65,
+,,,,,,,,,,
+5685,CWE566,CWE566_Authorization_Bypass_Through_SQL_Primary__Servlet_67a,CWE566_Authorization_Bypass_Through_SQL_Primary__Servlet_67a,bad,1,[35],5685,35,,
+5685,CWE566,,CWE566_Authorization_Bypass_Through_SQL_Primary__Servlet_67b,,,,5685,,54,
+,,,,,,,,,,
+5686,CWE566,CWE566_Authorization_Bypass_Through_SQL_Primary__Servlet_74a,CWE566_Authorization_Bypass_Through_SQL_Primary__Servlet_74a,goodG2B,0,[31],5686,,,51
+5686,CWE566,,CWE566_Authorization_Bypass_Through_SQL_Primary__Servlet_74b,,,,5686,,,
+,,,,,,,,,,
+5687,CWE566,CWE566_Authorization_Bypass_Through_SQL_Primary__Servlet_22a,CWE566_Authorization_Bypass_Through_SQL_Primary__Servlet_22a,goodG2B2,0,[61],5687,,,
+5687,CWE566,,CWE566_Authorization_Bypass_Through_SQL_Primary__Servlet_22b,,,,5687,,,73
+,,,,,,,,,,
+5688,CWE566,CWE566_Authorization_Bypass_Through_SQL_Primary__Servlet_02,CWE566_Authorization_Bypass_Through_SQL_Primary__Servlet_02,goodG2B2,0,"[65, 35]",5688,,,205
+,,,,,,,,,,
+5689,CWE566,CWE566_Authorization_Bypass_Through_SQL_Primary__Servlet_71a,CWE566_Authorization_Bypass_Through_SQL_Primary__Servlet_71a,bad,1,[30],5689,30,,
+5689,CWE566,,CWE566_Authorization_Bypass_Through_SQL_Primary__Servlet_71b,,,,5689,,54,

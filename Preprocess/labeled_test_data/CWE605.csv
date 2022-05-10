@@ -1,0 +1,4 @@
+case_id,cwe,main_file,java_file,func_name,target,old_labeled_lines,case_id,bad_source_lines,bad_sink_lines,fixed_lines
+5761,CWE605,CWE605_Multiple_Binds_Same_Port__basic_12,CWE605_Multiple_Binds_Same_Port__basic_12,good1,0,[41],5761,,,136
+,,,,,,,,,,
+5762,CWE605,CWE605_Multiple_Binds_Same_Port__basic_17,CWE605_Multiple_Binds_Same_Port__basic_17,bad,1,[41],5762,,41,

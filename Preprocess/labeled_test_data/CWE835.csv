@@ -1,0 +1,6 @@
+case_id,cwe,main_file,java_file,func_name,target,old_labeled_lines,case_id,bad_source_lines,bad_sink_lines,fixed_lines
+6745,CWE835,CWE835_Infinite_Loop__for_01,CWE835_Infinite_Loop__for_01,good2,0,[15],6745,,,37
+,,,,,,,,,,
+6746,CWE835,CWE835_Infinite_Loop__while_01,CWE835_Infinite_Loop__while_01,good1,0,[17],6746,,,31
+,,,,,,,,,,
+6747,CWE835,CWE835_Infinite_Loop__while_01,CWE835_Infinite_Loop__while_01,bad,1,[17],6747,,,17

@@ -1,0 +1,375 @@
+case_id,cwe,main_file,java_file,func_name,target,old_labeled_lines,case_id,bad_source_lines,bad_sink_lines,fixed_lines
+4267,CWE319,CWE319_Cleartext_Tx_Sensitive_Info__URLConnection_passwordAuth_67a,CWE319_Cleartext_Tx_Sensitive_Info__URLConnection_passwordAuth_67a,goodG2B,0,[57],4267,,,110
+4267,CWE319,,CWE319_Cleartext_Tx_Sensitive_Info__URLConnection_passwordAuth_67b,,,,4267,,,
+,,,,,,,,,,
+4268,CWE319,CWE319_Cleartext_Tx_Sensitive_Info__URLConnection_kerberosKey_67a,CWE319_Cleartext_Tx_Sensitive_Info__URLConnection_kerberosKey_67a,goodG2B,0,[57],4268,,,
+4268,CWE319,,CWE319_Cleartext_Tx_Sensitive_Info__URLConnection_kerberosKey_67b,,,,4268,,,110
+,,,,,,,,,,
+4269,CWE319,CWE319_Cleartext_Tx_Sensitive_Info__connect_tcp_passwordAuth_74a,CWE319_Cleartext_Tx_Sensitive_Info__connect_tcp_passwordAuth_74a,goodB2G,0,[51],4269,,,
+4269,CWE319,,CWE319_Cleartext_Tx_Sensitive_Info__connect_tcp_passwordAuth_74b,,,,4269,,,70
+,,,,,,,,,,
+4270,CWE319,CWE319_Cleartext_Tx_Sensitive_Info__listen_tcp_driverManager_81a,CWE319_Cleartext_Tx_Sensitive_Info__listen_tcp_driverManager_81a,bad,1,[55],4270,55,,
+4270,CWE319,,CWE319_Cleartext_Tx_Sensitive_Info__listen_tcp_driverManager_81_bad,,,,4270,,41,
+,,,,,,,,,,
+4271,CWE319,CWE319_Cleartext_Tx_Sensitive_Info__URLConnection_driverManager_67a,CWE319_Cleartext_Tx_Sensitive_Info__URLConnection_driverManager_67a,goodG2B,0,[57],4271,,,110
+4271,CWE319,,CWE319_Cleartext_Tx_Sensitive_Info__URLConnection_driverManager_67b,,,,4271,,,
+,,,,,,,,,,
+4272,CWE319,CWE319_Cleartext_Tx_Sensitive_Info__connect_tcp_passwordAuth_81a,CWE319_Cleartext_Tx_Sensitive_Info__connect_tcp_passwordAuth_81a,goodB2G,0,[50],4272,,,
+4272,CWE319,,CWE319_Cleartext_Tx_Sensitive_Info__connect_tcp_passwordAuth_81_goodB2G,,,,4272,,,36
+,,,,,,,,,,
+4273,CWE319,CWE319_Cleartext_Tx_Sensitive_Info__listen_tcp_kerberosKey_12,CWE319_Cleartext_Tx_Sensitive_Info__listen_tcp_kerberosKey_12,bad,1,"[59, 124, 134]",4273,59,134,
+,,,,,,,,,,
+4274,CWE319,CWE319_Cleartext_Tx_Sensitive_Info__send_75a,CWE319_Cleartext_Tx_Sensitive_Info__send_75a,bad,1,[42],4274,42,,
+4274,CWE319,,CWE319_Cleartext_Tx_Sensitive_Info__send_75b,,,,4274,,54,
+,,,,,,,,,,
+4275,CWE319,CWE319_Cleartext_Tx_Sensitive_Info__URLConnection_kerberosKey_74a,CWE319_Cleartext_Tx_Sensitive_Info__URLConnection_kerberosKey_74a,bad,1,[53],4275,53,,
+4275,CWE319,,CWE319_Cleartext_Tx_Sensitive_Info__URLConnection_kerberosKey_74b,,,,4275,,40,
+,,,,,,,,,,
+4276,CWE319,CWE319_Cleartext_Tx_Sensitive_Info__connect_tcp_kerberosKey_81a,CWE319_Cleartext_Tx_Sensitive_Info__connect_tcp_kerberosKey_81a,goodG2B,0,[50],4276,,,118
+4276,CWE319,,CWE319_Cleartext_Tx_Sensitive_Info__connect_tcp_kerberosKey_81_goodG2B,,,,4276,,,
+,,,,,,,,,,
+4277,CWE319,CWE319_Cleartext_Tx_Sensitive_Info__send_75a,CWE319_Cleartext_Tx_Sensitive_Info__send_75a,goodB2G,0,[42],4277,,,
+4277,CWE319,,CWE319_Cleartext_Tx_Sensitive_Info__send_75b,,,,4277,,,225
+,,,,,,,,,,
+4278,CWE319,CWE319_Cleartext_Tx_Sensitive_Info__send_53a,CWE319_Cleartext_Tx_Sensitive_Info__send_53a,goodB2G,0,[37],4278,,,
+4278,CWE319,,CWE319_Cleartext_Tx_Sensitive_Info__send_53b,,,,4278,,,
+4278,CWE319,,CWE319_Cleartext_Tx_Sensitive_Info__send_53c,,,,4278,,,
+4278,CWE319,,CWE319_Cleartext_Tx_Sensitive_Info__send_53d,,,,4278,,,124
+,,,,,,,,,,
+4279,CWE319,CWE319_Cleartext_Tx_Sensitive_Info__connect_tcp_driverManager_16,CWE319_Cleartext_Tx_Sensitive_Info__connect_tcp_driverManager_16,goodG2B,0,"[56, 116]",4279,,,175
+,,,,,,,,,,
+4280,CWE319,CWE319_Cleartext_Tx_Sensitive_Info__connect_tcp_kerberosKey_52a,CWE319_Cleartext_Tx_Sensitive_Info__connect_tcp_kerberosKey_52a,goodG2B,0,[50],4280,,,117
+4280,CWE319,,CWE319_Cleartext_Tx_Sensitive_Info__connect_tcp_kerberosKey_52b,,,,4280,,,
+4280,CWE319,,CWE319_Cleartext_Tx_Sensitive_Info__connect_tcp_kerberosKey_52c,,,,4280,,,
+,,,,,,,,,,
+4281,CWE319,CWE319_Cleartext_Tx_Sensitive_Info__connect_tcp_passwordAuth_21,CWE319_Cleartext_Tx_Sensitive_Info__connect_tcp_passwordAuth_21,goodG2B,0,[58],4281,,,342
+,,,,,,,,,,
+4282,CWE319,CWE319_Cleartext_Tx_Sensitive_Info__connect_tcp_kerberosKey_52a,CWE319_Cleartext_Tx_Sensitive_Info__connect_tcp_kerberosKey_52a,bad,1,[50],4282,50,,
+4282,CWE319,,CWE319_Cleartext_Tx_Sensitive_Info__connect_tcp_kerberosKey_52b,,,,4282,,,
+4282,CWE319,,CWE319_Cleartext_Tx_Sensitive_Info__connect_tcp_kerberosKey_52c,,,,4282,,38,
+,,,,,,,,,,
+4283,CWE319,CWE319_Cleartext_Tx_Sensitive_Info__URLConnection_driverManager_22a,CWE319_Cleartext_Tx_Sensitive_Info__URLConnection_driverManager_22a,bad,1,[56],4283,56,,
+4283,CWE319,,CWE319_Cleartext_Tx_Sensitive_Info__URLConnection_driverManager_22b,,,,4283,,42,
+,,,,,,,,,,
+4284,CWE319,CWE319_Cleartext_Tx_Sensitive_Info__connect_tcp_passwordAuth_21,CWE319_Cleartext_Tx_Sensitive_Info__connect_tcp_passwordAuth_21,bad,1,[58],4284,58,120,
+,,,,,,,,,,
+4285,CWE319,CWE319_Cleartext_Tx_Sensitive_Info__URLConnection_driverManager_72a,CWE319_Cleartext_Tx_Sensitive_Info__URLConnection_driverManager_72a,goodB2G,0,[53],4285,,,
+4285,CWE319,,CWE319_Cleartext_Tx_Sensitive_Info__URLConnection_driverManager_72b,,,,4285,,,161
+,,,,,,,,,,
+4286,CWE319,CWE319_Cleartext_Tx_Sensitive_Info__URLConnection_passwordAuth_73a,CWE319_Cleartext_Tx_Sensitive_Info__URLConnection_passwordAuth_73a,bad,1,[53],4286,53,,
+4286,CWE319,,CWE319_Cleartext_Tx_Sensitive_Info__URLConnection_passwordAuth_73b,,,,4286,,37,
+,,,,,,,,,,
+4287,CWE319,CWE319_Cleartext_Tx_Sensitive_Info__connect_tcp_kerberosKey_21,CWE319_Cleartext_Tx_Sensitive_Info__connect_tcp_kerberosKey_21,bad,1,[60],4287,60,123,
+,,,,,,,,,,
+4288,CWE319,CWE319_Cleartext_Tx_Sensitive_Info__URLConnection_kerberosKey_73a,CWE319_Cleartext_Tx_Sensitive_Info__URLConnection_kerberosKey_73a,bad,1,[53],4288,53,,
+4288,CWE319,,CWE319_Cleartext_Tx_Sensitive_Info__URLConnection_kerberosKey_73b,,,,4288,,40,
+,,,,,,,,,,
+4289,CWE319,CWE319_Cleartext_Tx_Sensitive_Info__connect_tcp_kerberosKey_02,CWE319_Cleartext_Tx_Sensitive_Info__connect_tcp_kerberosKey_02,bad,1,"[55, 118]",4289,55,118,
+,,,,,,,,,,
+4290,CWE319,CWE319_Cleartext_Tx_Sensitive_Info__URLConnection_kerberosKey_66a,CWE319_Cleartext_Tx_Sensitive_Info__URLConnection_kerberosKey_66a,bad,1,[52],4290,52,,
+4290,CWE319,,CWE319_Cleartext_Tx_Sensitive_Info__URLConnection_kerberosKey_66b,,,,4290,,39,
+,,,,,,,,,,
+4291,CWE319,CWE319_Cleartext_Tx_Sensitive_Info__connect_tcp_driverManager_61a,CWE319_Cleartext_Tx_Sensitive_Info__connect_tcp_driverManager_61a,bad,1,[42],4291,,42,
+4291,CWE319,,CWE319_Cleartext_Tx_Sensitive_Info__connect_tcp_driverManager_61b,,,,4291,50,,
+,,,,,,,,,,
+4292,CWE319,CWE319_Cleartext_Tx_Sensitive_Info__listen_tcp_driverManager_01,CWE319_Cleartext_Tx_Sensitive_Info__listen_tcp_driverManager_01,bad,1,"[62, 128]",4292,62,128,
+,,,,,,,,,,
+4293,CWE319,CWE319_Cleartext_Tx_Sensitive_Info__send_31,CWE319_Cleartext_Tx_Sensitive_Info__send_31,bad,1,"[44, 59]",4293,44,59,
+,,,,,,,,,,
+4294,CWE319,CWE319_Cleartext_Tx_Sensitive_Info__URLConnection_kerberosKey_75a,CWE319_Cleartext_Tx_Sensitive_Info__URLConnection_kerberosKey_75a,goodB2G,0,[55],4294,,,
+4294,CWE319,,CWE319_Cleartext_Tx_Sensitive_Info__URLConnection_kerberosKey_75b,,,,4294,,,169
+,,,,,,,,,,
+4295,CWE319,CWE319_Cleartext_Tx_Sensitive_Info__send_81a,CWE319_Cleartext_Tx_Sensitive_Info__send_81a,goodB2G,0,[37],4295,,,
+4295,CWE319,,CWE319_Cleartext_Tx_Sensitive_Info__send_81_goodB2G,,,,4295,,,44
+,,,,,,,,,,
+4296,CWE319,CWE319_Cleartext_Tx_Sensitive_Info__listen_tcp_passwordAuth_81a,CWE319_Cleartext_Tx_Sensitive_Info__listen_tcp_passwordAuth_81a,goodB2G,0,[55],4296,,,
+4296,CWE319,,CWE319_Cleartext_Tx_Sensitive_Info__listen_tcp_passwordAuth_81_goodB2G,,,,4296,,,36
+,,,,,,,,,,
+4297,CWE319,CWE319_Cleartext_Tx_Sensitive_Info__connect_tcp_kerberosKey_02,CWE319_Cleartext_Tx_Sensitive_Info__connect_tcp_kerberosKey_02,goodB2G1,0,"[55, 118]",4297,,,272
+,,,,,,,,,,
+4298,CWE319,CWE319_Cleartext_Tx_Sensitive_Info__connect_tcp_driverManager_67a,CWE319_Cleartext_Tx_Sensitive_Info__connect_tcp_driverManager_67a,goodB2G,0,[55],4298,,,
+4298,CWE319,,CWE319_Cleartext_Tx_Sensitive_Info__connect_tcp_driverManager_67b,,,,4298,,,160
+,,,,,,,,,,
+4299,CWE319,CWE319_Cleartext_Tx_Sensitive_Info__connect_tcp_passwordAuth_22a,CWE319_Cleartext_Tx_Sensitive_Info__connect_tcp_passwordAuth_22a,bad,1,[54],4299,54,,
+4299,CWE319,,CWE319_Cleartext_Tx_Sensitive_Info__connect_tcp_passwordAuth_22b,,,,4299,,36,
+,,,,,,,,,,
+4300,CWE319,CWE319_Cleartext_Tx_Sensitive_Info__send_54a,CWE319_Cleartext_Tx_Sensitive_Info__send_54a,goodB2G,0,[37],4300,,,
+4300,CWE319,,CWE319_Cleartext_Tx_Sensitive_Info__send_54b,,,,4300,,,
+4300,CWE319,,CWE319_Cleartext_Tx_Sensitive_Info__send_54c,,,,4300,,,
+4300,CWE319,,CWE319_Cleartext_Tx_Sensitive_Info__send_54d,,,,4300,,,
+4300,CWE319,,CWE319_Cleartext_Tx_Sensitive_Info__send_54e,,,,4300,,,124
+,,,,,,,,,,
+4301,CWE319,CWE319_Cleartext_Tx_Sensitive_Info__URLConnection_passwordAuth_16,CWE319_Cleartext_Tx_Sensitive_Info__URLConnection_passwordAuth_16,bad,1,"[98, 56]",4301,56,98,
+,,,,,,,,,,
+4302,CWE319,CWE319_Cleartext_Tx_Sensitive_Info__connect_tcp_kerberosKey_67a,CWE319_Cleartext_Tx_Sensitive_Info__connect_tcp_kerberosKey_67a,goodB2G,0,[55],4302,,,
+4302,CWE319,,CWE319_Cleartext_Tx_Sensitive_Info__connect_tcp_kerberosKey_67b,,,,4302,,,70
+,,,,,,,,,,
+4303,CWE319,CWE319_Cleartext_Tx_Sensitive_Info__URLConnection_kerberosKey_54a,CWE319_Cleartext_Tx_Sensitive_Info__URLConnection_kerberosKey_54a,goodB2G,0,[52],4303,,,
+4303,CWE319,,CWE319_Cleartext_Tx_Sensitive_Info__URLConnection_kerberosKey_54b,,,,4303,,,
+4303,CWE319,,CWE319_Cleartext_Tx_Sensitive_Info__URLConnection_kerberosKey_54c,,,,4303,,,
+4303,CWE319,,CWE319_Cleartext_Tx_Sensitive_Info__URLConnection_kerberosKey_54d,,,,4303,,,
+4303,CWE319,,CWE319_Cleartext_Tx_Sensitive_Info__URLConnection_kerberosKey_54e,,,,4303,,,67
+,,,,,,,,,,
+4304,CWE319,CWE319_Cleartext_Tx_Sensitive_Info__URLConnection_kerberosKey_53a,CWE319_Cleartext_Tx_Sensitive_Info__URLConnection_kerberosKey_53a,bad,1,[52],4304,52,,
+4304,CWE319,,CWE319_Cleartext_Tx_Sensitive_Info__URLConnection_kerberosKey_53b,,,,4304,,,
+4304,CWE319,,CWE319_Cleartext_Tx_Sensitive_Info__URLConnection_kerberosKey_53c,,,,4304,,,
+4304,CWE319,,CWE319_Cleartext_Tx_Sensitive_Info__URLConnection_kerberosKey_53d,,,,4304,,38,
+,,,,,,,,,,
+4305,CWE319,CWE319_Cleartext_Tx_Sensitive_Info__listen_tcp_driverManager_74a,CWE319_Cleartext_Tx_Sensitive_Info__listen_tcp_driverManager_74a,goodB2G,0,[56],4305,,,
+4305,CWE319,,CWE319_Cleartext_Tx_Sensitive_Info__listen_tcp_driverManager_74b,,,,4305,,,161
+,,,,,,,,,,
+4306,CWE319,CWE319_Cleartext_Tx_Sensitive_Info__connect_tcp_kerberosKey_12,CWE319_Cleartext_Tx_Sensitive_Info__connect_tcp_kerberosKey_12,goodG2B,0,"[120, 55, 110]",4306,,,154
+,,,,,,,,,,
+4307,CWE319,CWE319_Cleartext_Tx_Sensitive_Info__send_71a,CWE319_Cleartext_Tx_Sensitive_Info__send_71a,goodG2B,0,[37],4307,,,54
+4307,CWE319,,CWE319_Cleartext_Tx_Sensitive_Info__send_71b,,,,4307,,,
+,,,,,,,,,,
+4308,CWE319,CWE319_Cleartext_Tx_Sensitive_Info__connect_tcp_driverManager_74a,CWE319_Cleartext_Tx_Sensitive_Info__connect_tcp_driverManager_74a,bad,1,[51],4308,51,,
+4308,CWE319,,CWE319_Cleartext_Tx_Sensitive_Info__connect_tcp_driverManager_74b,,,,4308,,43,
+,,,,,,,,,,
+4309,CWE319,CWE319_Cleartext_Tx_Sensitive_Info__URLConnection_kerberosKey_01,CWE319_Cleartext_Tx_Sensitive_Info__URLConnection_kerberosKey_01,goodB2G,0,"[98, 59]",4309,,,190
+,,,,,,,,,,
+4310,CWE319,CWE319_Cleartext_Tx_Sensitive_Info__URLConnection_kerberosKey_16,CWE319_Cleartext_Tx_Sensitive_Info__URLConnection_kerberosKey_16,bad,1,"[101, 58]",4310,58,101,
+,,,,,,,,,,
+4311,CWE319,CWE319_Cleartext_Tx_Sensitive_Info__connect_tcp_passwordAuth_61a,CWE319_Cleartext_Tx_Sensitive_Info__connect_tcp_passwordAuth_61a,bad,1,[36],4311,,36,
+4311,CWE319,,CWE319_Cleartext_Tx_Sensitive_Info__connect_tcp_passwordAuth_61b,,,,4311,50,,
+,,,,,,,,,,
+4312,CWE319,CWE319_Cleartext_Tx_Sensitive_Info__connect_tcp_passwordAuth_61a,CWE319_Cleartext_Tx_Sensitive_Info__connect_tcp_passwordAuth_61a,goodG2B,0,[36],4312,,,
+4312,CWE319,,CWE319_Cleartext_Tx_Sensitive_Info__connect_tcp_passwordAuth_61b,,,,4312,,,111
+,,,,,,,,,,
+4313,CWE319,CWE319_Cleartext_Tx_Sensitive_Info__URLConnection_kerberosKey_42,CWE319_Cleartext_Tx_Sensitive_Info__URLConnection_kerberosKey_42,goodB2G,0,[105],4313,,,205
+,,,,,,,,,,
+4314,CWE319,CWE319_Cleartext_Tx_Sensitive_Info__send_72a,CWE319_Cleartext_Tx_Sensitive_Info__send_72a,goodG2B,0,[38],4314,,,59
+4314,CWE319,,CWE319_Cleartext_Tx_Sensitive_Info__send_72b,,,,4314,,,
+,,,,,,,,,,
+4315,CWE319,CWE319_Cleartext_Tx_Sensitive_Info__URLConnection_passwordAuth_12,CWE319_Cleartext_Tx_Sensitive_Info__URLConnection_passwordAuth_12,bad,1,"[55, 95, 104]",4315,55,104,
+,,,,,,,,,,
+4316,CWE319,CWE319_Cleartext_Tx_Sensitive_Info__connect_tcp_driverManager_02,CWE319_Cleartext_Tx_Sensitive_Info__connect_tcp_driverManager_02,goodG2B1,0,"[55, 120]",4316,,,184
+,,,,,,,,,,
+4317,CWE319,CWE319_Cleartext_Tx_Sensitive_Info__connect_tcp_kerberosKey_66a,CWE319_Cleartext_Tx_Sensitive_Info__connect_tcp_kerberosKey_66a,goodB2G,0,[50],4317,,,
+4317,CWE319,,CWE319_Cleartext_Tx_Sensitive_Info__connect_tcp_kerberosKey_66b,,,,4317,,,68
+,,,,,,,,,,
+4318,CWE319,CWE319_Cleartext_Tx_Sensitive_Info__listen_tcp_kerberosKey_31,CWE319_Cleartext_Tx_Sensitive_Info__listen_tcp_kerberosKey_31,goodB2G,0,"[64, 133]",4318,,,199
+,,,,,,,,,,
+4319,CWE319,CWE319_Cleartext_Tx_Sensitive_Info__connect_tcp_driverManager_72a,CWE319_Cleartext_Tx_Sensitive_Info__connect_tcp_driverManager_72a,bad,1,[51],4319,51,,
+4319,CWE319,,CWE319_Cleartext_Tx_Sensitive_Info__connect_tcp_driverManager_72b,,,,4319,,43,
+,,,,,,,,,,
+4320,CWE319,CWE319_Cleartext_Tx_Sensitive_Info__connect_tcp_kerberosKey_42,CWE319_Cleartext_Tx_Sensitive_Info__connect_tcp_kerberosKey_42,bad,1,[119],4320,57,119,
+,,,,,,,,,,
+4321,CWE319,CWE319_Cleartext_Tx_Sensitive_Info__connect_tcp_passwordAuth_73a,CWE319_Cleartext_Tx_Sensitive_Info__connect_tcp_passwordAuth_73a,goodG2B,0,[51],4321,,,122
+4321,CWE319,,CWE319_Cleartext_Tx_Sensitive_Info__connect_tcp_passwordAuth_73b,,,,4321,,,
+,,,,,,,,,,
+4322,CWE319,CWE319_Cleartext_Tx_Sensitive_Info__URLConnection_passwordAuth_61a,CWE319_Cleartext_Tx_Sensitive_Info__URLConnection_passwordAuth_61a,bad,1,[36],4322,,36,
+4322,CWE319,,CWE319_Cleartext_Tx_Sensitive_Info__URLConnection_passwordAuth_61b,,,,4322,52,,
+,,,,,,,,,,
+4323,CWE319,CWE319_Cleartext_Tx_Sensitive_Info__connect_tcp_kerberosKey_53a,CWE319_Cleartext_Tx_Sensitive_Info__connect_tcp_kerberosKey_53a,goodG2B,0,[50],4323,,,117
+4323,CWE319,,CWE319_Cleartext_Tx_Sensitive_Info__connect_tcp_kerberosKey_53b,,,,4323,,,
+4323,CWE319,,CWE319_Cleartext_Tx_Sensitive_Info__connect_tcp_kerberosKey_53c,,,,4323,,,
+4323,CWE319,,CWE319_Cleartext_Tx_Sensitive_Info__connect_tcp_kerberosKey_53d,,,,4323,,,
+,,,,,,,,,,
+4324,CWE319,CWE319_Cleartext_Tx_Sensitive_Info__connect_tcp_driverManager_71a,CWE319_Cleartext_Tx_Sensitive_Info__connect_tcp_driverManager_71a,bad,1,[50],4324,50,,
+4324,CWE319,,CWE319_Cleartext_Tx_Sensitive_Info__connect_tcp_driverManager_71b,,,,4324,,42,
+,,,,,,,,,,
+4325,CWE319,CWE319_Cleartext_Tx_Sensitive_Info__connect_tcp_passwordAuth_75a,CWE319_Cleartext_Tx_Sensitive_Info__connect_tcp_passwordAuth_75a,bad,1,[53],4325,53,,
+4325,CWE319,,CWE319_Cleartext_Tx_Sensitive_Info__connect_tcp_passwordAuth_75b,,,,4325,,48,
+,,,,,,,,,,
+4326,CWE319,CWE319_Cleartext_Tx_Sensitive_Info__connect_tcp_passwordAuth_02,CWE319_Cleartext_Tx_Sensitive_Info__connect_tcp_passwordAuth_02,goodG2B1,0,"[115, 53]",4326,,,136
+,,,,,,,,,,
+4327,CWE319,CWE319_Cleartext_Tx_Sensitive_Info__connect_tcp_kerberosKey_54a,CWE319_Cleartext_Tx_Sensitive_Info__connect_tcp_kerberosKey_54a,bad,1,[50],4327,50,,
+4327,CWE319,,CWE319_Cleartext_Tx_Sensitive_Info__connect_tcp_kerberosKey_54b,,,,4327,,,
+4327,CWE319,,CWE319_Cleartext_Tx_Sensitive_Info__connect_tcp_kerberosKey_54c,,,,4327,,,
+4327,CWE319,,CWE319_Cleartext_Tx_Sensitive_Info__connect_tcp_kerberosKey_54d,,,,4327,,,
+4327,CWE319,,CWE319_Cleartext_Tx_Sensitive_Info__connect_tcp_kerberosKey_54e,,,,4327,,38,
+,,,,,,,,,,
+4328,CWE319,CWE319_Cleartext_Tx_Sensitive_Info__listen_tcp_driverManager_22a,CWE319_Cleartext_Tx_Sensitive_Info__listen_tcp_driverManager_22a,goodB2G1,0,[59],4328,,,
+4328,CWE319,,CWE319_Cleartext_Tx_Sensitive_Info__listen_tcp_driverManager_22b,,,,4328,,,113
+,,,,,,,,,,
+4329,CWE319,CWE319_Cleartext_Tx_Sensitive_Info__listen_tcp_driverManager_74a,CWE319_Cleartext_Tx_Sensitive_Info__listen_tcp_driverManager_74a,bad,1,[56],4329,56,,
+4329,CWE319,,CWE319_Cleartext_Tx_Sensitive_Info__listen_tcp_driverManager_74b,,,,4329,,43,
+,,,,,,,,,,
+4330,CWE319,CWE319_Cleartext_Tx_Sensitive_Info__connect_tcp_passwordAuth_16,CWE319_Cleartext_Tx_Sensitive_Info__connect_tcp_passwordAuth_16,bad,1,"[111, 54]",4330,54,111,
+,,,,,,,,,,
+4331,CWE319,CWE319_Cleartext_Tx_Sensitive_Info__URLConnection_kerberosKey_73a,CWE319_Cleartext_Tx_Sensitive_Info__URLConnection_kerberosKey_73a,goodB2G,0,[53],4331,,,
+4331,CWE319,,CWE319_Cleartext_Tx_Sensitive_Info__URLConnection_kerberosKey_73b,,,,4331,,,71
+,,,,,,,,,,
+4332,CWE319,CWE319_Cleartext_Tx_Sensitive_Info__URLConnection_passwordAuth_54a,CWE319_Cleartext_Tx_Sensitive_Info__URLConnection_passwordAuth_54a,goodB2G,0,[52],4332,,,
+4332,CWE319,,CWE319_Cleartext_Tx_Sensitive_Info__URLConnection_passwordAuth_54b,,,,4332,,,
+4332,CWE319,,CWE319_Cleartext_Tx_Sensitive_Info__URLConnection_passwordAuth_54c,,,,4332,,,
+4332,CWE319,,CWE319_Cleartext_Tx_Sensitive_Info__URLConnection_passwordAuth_54d,,,,4332,,,
+4332,CWE319,,CWE319_Cleartext_Tx_Sensitive_Info__URLConnection_passwordAuth_54e,,,,4332,,,62
+,,,,,,,,,,
+4333,CWE319,CWE319_Cleartext_Tx_Sensitive_Info__connect_tcp_kerberosKey_73a,CWE319_Cleartext_Tx_Sensitive_Info__connect_tcp_kerberosKey_73a,goodG2B,0,[51],4333,,,122
+4333,CWE319,,CWE319_Cleartext_Tx_Sensitive_Info__connect_tcp_kerberosKey_73b,,,,4333,,,
+,,,,,,,,,,
+4334,CWE319,CWE319_Cleartext_Tx_Sensitive_Info__connect_tcp_kerberosKey_81a,CWE319_Cleartext_Tx_Sensitive_Info__connect_tcp_kerberosKey_81a,bad,1,[50],4334,50,,
+4334,CWE319,,CWE319_Cleartext_Tx_Sensitive_Info__connect_tcp_kerberosKey_81_bad,,,,4334,,38,
+,,,,,,,,,,
+4335,CWE319,CWE319_Cleartext_Tx_Sensitive_Info__send_45,CWE319_Cleartext_Tx_Sensitive_Info__send_45,bad,1,[86],4335,86,49,
+,,,,,,,,,,
+4336,CWE319,CWE319_Cleartext_Tx_Sensitive_Info__connect_tcp_kerberosKey_67a,CWE319_Cleartext_Tx_Sensitive_Info__connect_tcp_kerberosKey_67a,bad,1,[55],4336,55,,
+4336,CWE319,,CWE319_Cleartext_Tx_Sensitive_Info__connect_tcp_kerberosKey_67b,,,,4336,,39,
+,,,,,,,,,,
+4337,CWE319,CWE319_Cleartext_Tx_Sensitive_Info__connect_tcp_passwordAuth_17,CWE319_Cleartext_Tx_Sensitive_Info__connect_tcp_passwordAuth_17,bad,1,"[60, 116]",4337,60,116,
+,,,,,,,,,,
+4338,CWE319,CWE319_Cleartext_Tx_Sensitive_Info__URLConnection_passwordAuth_66a,CWE319_Cleartext_Tx_Sensitive_Info__URLConnection_passwordAuth_66a,goodB2G,0,[52],4338,,,
+4338,CWE319,,CWE319_Cleartext_Tx_Sensitive_Info__URLConnection_passwordAuth_66b,,,,4338,,,65
+,,,,,,,,,,
+4339,CWE319,CWE319_Cleartext_Tx_Sensitive_Info__listen_tcp_passwordAuth_71a,CWE319_Cleartext_Tx_Sensitive_Info__listen_tcp_passwordAuth_71a,goodB2G,0,[55],4339,,,
+4339,CWE319,,CWE319_Cleartext_Tx_Sensitive_Info__listen_tcp_passwordAuth_71b,,,,4339,,,65
+,,,,,,,,,,
+4340,CWE319,CWE319_Cleartext_Tx_Sensitive_Info__listen_tcp_passwordAuth_17,CWE319_Cleartext_Tx_Sensitive_Info__listen_tcp_passwordAuth_17,bad,1,"[65, 130]",4340,65,130,
+,,,,,,,,,,
+4341,CWE319,CWE319_Cleartext_Tx_Sensitive_Info__connect_tcp_driverManager_54a,CWE319_Cleartext_Tx_Sensitive_Info__connect_tcp_driverManager_54a,bad,1,[50],4341,50,,
+4341,CWE319,,CWE319_Cleartext_Tx_Sensitive_Info__connect_tcp_driverManager_54b,,,,4341,,,
+4341,CWE319,,CWE319_Cleartext_Tx_Sensitive_Info__connect_tcp_driverManager_54c,,,,4341,,,
+4341,CWE319,,CWE319_Cleartext_Tx_Sensitive_Info__connect_tcp_driverManager_54d,,,,4341,,,
+4341,CWE319,,CWE319_Cleartext_Tx_Sensitive_Info__connect_tcp_driverManager_54e,,,,4341,,41,
+,,,,,,,,,,
+4342,CWE319,CWE319_Cleartext_Tx_Sensitive_Info__URLConnection_driverManager_01,CWE319_Cleartext_Tx_Sensitive_Info__URLConnection_driverManager_01,goodB2G,0,"[100, 59]",4342,,,240
+,,,,,,,,,,
+4343,CWE319,CWE319_Cleartext_Tx_Sensitive_Info__listen_tcp_driverManager_53a,CWE319_Cleartext_Tx_Sensitive_Info__listen_tcp_driverManager_53a,goodB2G,0,[55],4343,,,
+4343,CWE319,,CWE319_Cleartext_Tx_Sensitive_Info__listen_tcp_driverManager_53b,,,,4343,,,
+4343,CWE319,,CWE319_Cleartext_Tx_Sensitive_Info__listen_tcp_driverManager_53c,,,,4343,,,
+4343,CWE319,,CWE319_Cleartext_Tx_Sensitive_Info__listen_tcp_driverManager_53d,,,,4343,,,157
+,,,,,,,,,,
+4344,CWE319,CWE319_Cleartext_Tx_Sensitive_Info__URLConnection_passwordAuth_31,CWE319_Cleartext_Tx_Sensitive_Info__URLConnection_passwordAuth_31,goodB2G,0,"[102, 59]",4344,,,208
+,,,,,,,,,,
+4345,CWE319,CWE319_Cleartext_Tx_Sensitive_Info__connect_tcp_kerberosKey_02,CWE319_Cleartext_Tx_Sensitive_Info__connect_tcp_kerberosKey_02,goodG2B2,0,"[55, 118]",4345,,,163
+,,,,,,,,,,
+4346,CWE319,CWE319_Cleartext_Tx_Sensitive_Info__listen_tcp_kerberosKey_01,CWE319_Cleartext_Tx_Sensitive_Info__listen_tcp_kerberosKey_01,goodB2G,0,"[62, 126]",4346,,,145
+,,,,,,,,,,
+4347,CWE319,CWE319_Cleartext_Tx_Sensitive_Info__listen_tcp_passwordAuth_22a,CWE319_Cleartext_Tx_Sensitive_Info__listen_tcp_passwordAuth_22a,bad,1,[59],4347,59,,
+4347,CWE319,,CWE319_Cleartext_Tx_Sensitive_Info__listen_tcp_passwordAuth_22b,,,,4347,,36,
+,,,,,,,,,,
+4348,CWE319,CWE319_Cleartext_Tx_Sensitive_Info__connect_tcp_driverManager_42,CWE319_Cleartext_Tx_Sensitive_Info__connect_tcp_driverManager_42,goodG2B,0,[121],4348,,,177
+,,,,,,,,,,
+4349,CWE319,CWE319_Cleartext_Tx_Sensitive_Info__connect_tcp_kerberosKey_61a,CWE319_Cleartext_Tx_Sensitive_Info__connect_tcp_kerberosKey_61a,bad,1,[39],4349,,39,
+4349,CWE319,,CWE319_Cleartext_Tx_Sensitive_Info__connect_tcp_kerberosKey_61b,,,,4349,50,,
+,,,,,,,,,,
+4350,CWE319,CWE319_Cleartext_Tx_Sensitive_Info__listen_tcp_passwordAuth_61a,CWE319_Cleartext_Tx_Sensitive_Info__listen_tcp_passwordAuth_61a,goodB2G,0,[36],4350,,,71
+4350,CWE319,,CWE319_Cleartext_Tx_Sensitive_Info__listen_tcp_passwordAuth_61b,,,,4350,,,
+,,,,,,,,,,
+4351,CWE319,CWE319_Cleartext_Tx_Sensitive_Info__send_61a,CWE319_Cleartext_Tx_Sensitive_Info__send_61a,bad,1,[43],4351,,43,
+4351,CWE319,,CWE319_Cleartext_Tx_Sensitive_Info__send_61b,,,,4351,37,,
+,,,,,,,,,,
+4352,CWE319,CWE319_Cleartext_Tx_Sensitive_Info__send_17,CWE319_Cleartext_Tx_Sensitive_Info__send_17,bad,1,"[47, 58]",4352,47,58,
+,,,,,,,,,,
+4353,CWE319,CWE319_Cleartext_Tx_Sensitive_Info__connect_tcp_kerberosKey_31,CWE319_Cleartext_Tx_Sensitive_Info__connect_tcp_kerberosKey_31,goodB2G,0,"[59, 119]",4353,,,242
+,,,,,,,,,,
+4354,CWE319,CWE319_Cleartext_Tx_Sensitive_Info__connect_tcp_passwordAuth_52a,CWE319_Cleartext_Tx_Sensitive_Info__connect_tcp_passwordAuth_52a,goodB2G,0,[50],4354,,,
+4354,CWE319,,CWE319_Cleartext_Tx_Sensitive_Info__connect_tcp_passwordAuth_52b,,,,4354,,,
+4354,CWE319,,CWE319_Cleartext_Tx_Sensitive_Info__connect_tcp_passwordAuth_52c,,,,4354,,,62
+,,,,,,,,,,
+4355,CWE319,CWE319_Cleartext_Tx_Sensitive_Info__send_73a,CWE319_Cleartext_Tx_Sensitive_Info__send_73a,bad,1,[38],4355,38,,
+4355,CWE319,,CWE319_Cleartext_Tx_Sensitive_Info__send_73b,,,,4355,,44,
+,,,,,,,,,,
+4356,CWE319,CWE319_Cleartext_Tx_Sensitive_Info__send_02,CWE319_Cleartext_Tx_Sensitive_Info__send_02,goodG2B2,0,"[42, 60]",4356,,,150
+,,,,,,,,,,
+4357,CWE319,CWE319_Cleartext_Tx_Sensitive_Info__URLConnection_driverManager_73a,CWE319_Cleartext_Tx_Sensitive_Info__URLConnection_driverManager_73a,goodB2G,0,[53],4357,,,
+4357,CWE319,,CWE319_Cleartext_Tx_Sensitive_Info__URLConnection_driverManager_73b,,,,4357,,,161
+,,,,,,,,,,
+4358,CWE319,CWE319_Cleartext_Tx_Sensitive_Info__connect_tcp_kerberosKey_72a,CWE319_Cleartext_Tx_Sensitive_Info__connect_tcp_kerberosKey_72a,goodG2B,0,[51],4358,,,122
+4358,CWE319,,CWE319_Cleartext_Tx_Sensitive_Info__connect_tcp_kerberosKey_72b,,,,4358,,,
+,,,,,,,,,,
+4359,CWE319,CWE319_Cleartext_Tx_Sensitive_Info__send_16,CWE319_Cleartext_Tx_Sensitive_Info__send_16,goodB2G,0,"[43, 56]",4359,,,162
+,,,,,,,,,,
+4360,CWE319,CWE319_Cleartext_Tx_Sensitive_Info__send_61a,CWE319_Cleartext_Tx_Sensitive_Info__send_61a,goodG2B,0,[43],4360,,,
+4360,CWE319,,CWE319_Cleartext_Tx_Sensitive_Info__send_61b,,,,4360,,,48
+,,,,,,,,,,
+4361,CWE319,CWE319_Cleartext_Tx_Sensitive_Info__listen_tcp_driverManager_68a,CWE319_Cleartext_Tx_Sensitive_Info__listen_tcp_driverManager_68a,goodB2G,0,[56],4361,,,131
+,,,,,,,,,,
+4362,CWE319,CWE319_Cleartext_Tx_Sensitive_Info__listen_tcp_passwordAuth_66a,CWE319_Cleartext_Tx_Sensitive_Info__listen_tcp_passwordAuth_66a,goodB2G,0,[55],4362,,,
+4362,CWE319,,CWE319_Cleartext_Tx_Sensitive_Info__listen_tcp_passwordAuth_66b,,,,4362,,,65
+,,,,,,,,,,
+4363,CWE319,CWE319_Cleartext_Tx_Sensitive_Info__connect_tcp_kerberosKey_73a,CWE319_Cleartext_Tx_Sensitive_Info__connect_tcp_kerberosKey_73a,goodB2G,0,[51],4363,,,
+4363,CWE319,,CWE319_Cleartext_Tx_Sensitive_Info__connect_tcp_kerberosKey_73b,,,,4363,,,71
+,,,,,,,,,,
+4364,CWE319,CWE319_Cleartext_Tx_Sensitive_Info__connect_tcp_passwordAuth_01,CWE319_Cleartext_Tx_Sensitive_Info__connect_tcp_passwordAuth_01,bad,1,"[109, 55]",4364,55,109,
+,,,,,,,,,,
+4365,CWE319,CWE319_Cleartext_Tx_Sensitive_Info__listen_tcp_kerberosKey_16,CWE319_Cleartext_Tx_Sensitive_Info__listen_tcp_kerberosKey_16,goodB2G,0,"[128, 60]",4365,,,253
+,,,,,,,,,,
+4366,CWE319,CWE319_Cleartext_Tx_Sensitive_Info__URLConnection_kerberosKey_01,CWE319_Cleartext_Tx_Sensitive_Info__URLConnection_kerberosKey_01,bad,1,"[98, 59]",4366,59,98,
+,,,,,,,,,,
+4367,CWE319,CWE319_Cleartext_Tx_Sensitive_Info__listen_tcp_passwordAuth_31,CWE319_Cleartext_Tx_Sensitive_Info__listen_tcp_passwordAuth_31,goodB2G,0,"[130, 62]",4367,,,264
+,,,,,,,,,,
+4368,CWE319,CWE319_Cleartext_Tx_Sensitive_Info__URLConnection_driverManager_71a,CWE319_Cleartext_Tx_Sensitive_Info__URLConnection_driverManager_71a,bad,1,[52],4368,52,,
+4368,CWE319,,CWE319_Cleartext_Tx_Sensitive_Info__URLConnection_driverManager_71b,,,,4368,,42,
+,,,,,,,,,,
+4369,CWE319,CWE319_Cleartext_Tx_Sensitive_Info__connect_tcp_passwordAuth_72a,CWE319_Cleartext_Tx_Sensitive_Info__connect_tcp_passwordAuth_72a,bad,1,[51],4369,51,,
+4369,CWE319,,CWE319_Cleartext_Tx_Sensitive_Info__connect_tcp_passwordAuth_72b,,,,4369,,37,
+,,,,,,,,,,
+4370,CWE319,CWE319_Cleartext_Tx_Sensitive_Info__connect_tcp_driverManager_17,CWE319_Cleartext_Tx_Sensitive_Info__connect_tcp_driverManager_17,goodB2G,0,"[62, 121]",4370,,,313
+,,,,,,,,,,
+4371,CWE319,CWE319_Cleartext_Tx_Sensitive_Info__connect_tcp_passwordAuth_81a,CWE319_Cleartext_Tx_Sensitive_Info__connect_tcp_passwordAuth_81a,goodG2B,0,[50],4371,,,118
+4371,CWE319,,CWE319_Cleartext_Tx_Sensitive_Info__connect_tcp_passwordAuth_81_goodG2B,,,,4371,,,
+,,,,,,,,,,
+4372,CWE319,CWE319_Cleartext_Tx_Sensitive_Info__listen_tcp_kerberosKey_02,CWE319_Cleartext_Tx_Sensitive_Info__listen_tcp_kerberosKey_02,goodB2G1,0,"[59, 132]",4372,,,299
+,,,,,,,,,,
+4373,CWE319,CWE319_Cleartext_Tx_Sensitive_Info__connect_tcp_passwordAuth_16,CWE319_Cleartext_Tx_Sensitive_Info__connect_tcp_passwordAuth_16,goodG2B,0,"[111, 54]",4373,,,127
+,,,,,,,,,,
+4374,CWE319,CWE319_Cleartext_Tx_Sensitive_Info__connect_tcp_passwordAuth_17,CWE319_Cleartext_Tx_Sensitive_Info__connect_tcp_passwordAuth_17,goodB2G,0,"[60, 116]",4374,,,162
+,,,,,,,,,,
+4375,CWE319,CWE319_Cleartext_Tx_Sensitive_Info__listen_tcp_driverManager_72a,CWE319_Cleartext_Tx_Sensitive_Info__listen_tcp_driverManager_72a,goodB2G,0,[56],4375,,,
+4375,CWE319,,CWE319_Cleartext_Tx_Sensitive_Info__listen_tcp_driverManager_72b,,,,4375,,,161
+,,,,,,,,,,
+4376,CWE319,CWE319_Cleartext_Tx_Sensitive_Info__listen_tcp_kerberosKey_72a,CWE319_Cleartext_Tx_Sensitive_Info__listen_tcp_kerberosKey_72a,bad,1,[56],4376,56,,
+4376,CWE319,,CWE319_Cleartext_Tx_Sensitive_Info__listen_tcp_kerberosKey_72b,,,,4376,,40,
+,,,,,,,,,,
+4377,CWE319,CWE319_Cleartext_Tx_Sensitive_Info__URLConnection_driverManager_17,CWE319_Cleartext_Tx_Sensitive_Info__URLConnection_driverManager_17,goodB2G,0,"[107, 64]",4377,,,284
+,,,,,,,,,,
+4378,CWE319,CWE319_Cleartext_Tx_Sensitive_Info__connect_tcp_kerberosKey_22a,CWE319_Cleartext_Tx_Sensitive_Info__connect_tcp_kerberosKey_22a,goodG2B,0,[54],4378,,,279
+4378,CWE319,,CWE319_Cleartext_Tx_Sensitive_Info__connect_tcp_kerberosKey_22b,,,,4378,,,
+,,,,,,,,,,
+4379,CWE319,CWE319_Cleartext_Tx_Sensitive_Info__send_21,CWE319_Cleartext_Tx_Sensitive_Info__send_21,goodG2B,0,[45],4379,,,230
+,,,,,,,,,,
+4380,CWE319,CWE319_Cleartext_Tx_Sensitive_Info__listen_tcp_kerberosKey_71a,CWE319_Cleartext_Tx_Sensitive_Info__listen_tcp_kerberosKey_71a,goodB2G,0,[55],4380,,,
+4380,CWE319,,CWE319_Cleartext_Tx_Sensitive_Info__listen_tcp_kerberosKey_71b,,,,4380,,,70
+,,,,,,,,,,
+4381,CWE319,CWE319_Cleartext_Tx_Sensitive_Info__send_02,CWE319_Cleartext_Tx_Sensitive_Info__send_02,goodB2G1,0,"[42, 60]",4381,,,
+,,,,,,,,,,
+4382,CWE319,CWE319_Cleartext_Tx_Sensitive_Info__connect_tcp_driverManager_53a,CWE319_Cleartext_Tx_Sensitive_Info__connect_tcp_driverManager_53a,bad,1,[50],4382,50,,
+4382,CWE319,,CWE319_Cleartext_Tx_Sensitive_Info__connect_tcp_driverManager_53b,,,,4382,,,
+4382,CWE319,,CWE319_Cleartext_Tx_Sensitive_Info__connect_tcp_driverManager_53c,,,,4382,,,
+4382,CWE319,,CWE319_Cleartext_Tx_Sensitive_Info__connect_tcp_driverManager_53d,,,,4382,,41,
+,,,,,,,,,,
+4383,CWE319,CWE319_Cleartext_Tx_Sensitive_Info__send_42,CWE319_Cleartext_Tx_Sensitive_Info__send_42,goodB2G,0,[59],4383,,,167
+,,,,,,,,,,
+4384,CWE319,CWE319_Cleartext_Tx_Sensitive_Info__URLConnection_driverManager_21,CWE319_Cleartext_Tx_Sensitive_Info__URLConnection_driverManager_21,bad,1,[62],4384,62,111,
+,,,,,,,,,,
+4385,CWE319,CWE319_Cleartext_Tx_Sensitive_Info__listen_tcp_kerberosKey_81a,CWE319_Cleartext_Tx_Sensitive_Info__listen_tcp_kerberosKey_81a,bad,1,[55],4385,55,,
+4385,CWE319,,CWE319_Cleartext_Tx_Sensitive_Info__listen_tcp_kerberosKey_81_bad,,,,4385,,38,
+,,,,,,,,,,
+4386,CWE319,CWE319_Cleartext_Tx_Sensitive_Info__URLConnection_kerberosKey_22a,CWE319_Cleartext_Tx_Sensitive_Info__URLConnection_kerberosKey_22a,bad,1,[56],4386,56,,
+4386,CWE319,,CWE319_Cleartext_Tx_Sensitive_Info__URLConnection_kerberosKey_22b,,,,4386,,39,
+,,,,,,,,,,
+4387,CWE319,CWE319_Cleartext_Tx_Sensitive_Info__URLConnection_kerberosKey_12,CWE319_Cleartext_Tx_Sensitive_Info__URLConnection_kerberosKey_12,bad,1,"[57, 97, 107]",4387,57,107,
+,,,,,,,,,,
+4388,CWE319,CWE319_Cleartext_Tx_Sensitive_Info__URLConnection_kerberosKey_31,CWE319_Cleartext_Tx_Sensitive_Info__URLConnection_kerberosKey_31,bad,1,"[105, 61]",4388,61,105,
+,,,,,,,,,,
+4389,CWE319,CWE319_Cleartext_Tx_Sensitive_Info__connect_tcp_driverManager_74a,CWE319_Cleartext_Tx_Sensitive_Info__connect_tcp_driverManager_74a,goodG2B,0,[51],4389,,,122
+4389,CWE319,,CWE319_Cleartext_Tx_Sensitive_Info__connect_tcp_driverManager_74b,,,,4389,,,
+,,,,,,,,,,
+4390,CWE319,CWE319_Cleartext_Tx_Sensitive_Info__URLConnection_passwordAuth_81a,CWE319_Cleartext_Tx_Sensitive_Info__URLConnection_passwordAuth_81a,goodB2G,0,[52],4390,,,
+4390,CWE319,,CWE319_Cleartext_Tx_Sensitive_Info__URLConnection_passwordAuth_81_goodB2G,,,,4390,,,36
+,,,,,,,,,,
+4391,CWE319,CWE319_Cleartext_Tx_Sensitive_Info__URLConnection_driverManager_81a,CWE319_Cleartext_Tx_Sensitive_Info__URLConnection_driverManager_81a,goodB2G,0,[52],4391,,,
+4391,CWE319,,CWE319_Cleartext_Tx_Sensitive_Info__URLConnection_driverManager_81_goodB2G,,,,4391,,,39
+,,,,,,,,,,
+4392,CWE319,CWE319_Cleartext_Tx_Sensitive_Info__connect_tcp_driverManager_22a,CWE319_Cleartext_Tx_Sensitive_Info__connect_tcp_driverManager_22a,goodB2G1,0,[54],4392,,,
+4392,CWE319,,CWE319_Cleartext_Tx_Sensitive_Info__connect_tcp_driverManager_22b,,,,4392,,,113
+,,,,,,,,,,
+4393,CWE319,CWE319_Cleartext_Tx_Sensitive_Info__URLConnection_driverManager_74a,CWE319_Cleartext_Tx_Sensitive_Info__URLConnection_driverManager_74a,goodB2G,0,[53],4393,,,
+4393,CWE319,,CWE319_Cleartext_Tx_Sensitive_Info__URLConnection_driverManager_74b,,,,4393,,,161
+,,,,,,,,,,
+4394,CWE319,CWE319_Cleartext_Tx_Sensitive_Info__send_17,CWE319_Cleartext_Tx_Sensitive_Info__send_17,goodB2G,0,"[47, 58]",4394,,,185
+,,,,,,,,,,
+4395,CWE319,CWE319_Cleartext_Tx_Sensitive_Info__listen_tcp_driverManager_02,CWE319_Cleartext_Tx_Sensitive_Info__listen_tcp_driverManager_02,bad,1,"[134, 59]",4395,59,134,
+,,,,,,,,,,
+4396,CWE319,CWE319_Cleartext_Tx_Sensitive_Info__listen_tcp_driverManager_66a,CWE319_Cleartext_Tx_Sensitive_Info__listen_tcp_driverManager_66a,bad,1,[55],4396,55,,
+4396,CWE319,,CWE319_Cleartext_Tx_Sensitive_Info__listen_tcp_driverManager_66b,,,,4396,,42,
+,,,,,,,,,,
+4397,CWE319,CWE319_Cleartext_Tx_Sensitive_Info__connect_tcp_driverManager_73a,CWE319_Cleartext_Tx_Sensitive_Info__connect_tcp_driverManager_73a,goodG2B,0,[51],4397,,,122
+4397,CWE319,,CWE319_Cleartext_Tx_Sensitive_Info__connect_tcp_driverManager_73b,,,,4397,,,
+,,,,,,,,,,
+4398,CWE319,CWE319_Cleartext_Tx_Sensitive_Info__URLConnection_driverManager_45,CWE319_Cleartext_Tx_Sensitive_Info__URLConnection_driverManager_45,bad,1,[122],4398,53,122,
+,,,,,,,,,,
+4399,CWE319,CWE319_Cleartext_Tx_Sensitive_Info__send_01,CWE319_Cleartext_Tx_Sensitive_Info__send_01,goodB2G,0,"[42, 52]",4399,,,152

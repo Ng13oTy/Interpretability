@@ -1,0 +1,2 @@
+case_id,cwe,main_file,java_file,func_name,target,old_labeled_lines,case_id,bad_source_lines,bad_sink_lines,fixed_lines
+6174,CWE760,CWE760_Predictable_Salt_One_Way_Hash__basic_12,CWE760_Predictable_Salt_One_Way_Hash__basic_12,bad,1,[33],6174,,33,

@@ -1,0 +1,4 @@
+case_id,cwe,main_file,java_file,func_name,target,old_labeled_lines,case_id,bad_source_lines,bad_sink_lines,fixed_lines
+5639,CWE483,CWE483_Incorrect_Block_Delimitation__semicolon_12,CWE483_Incorrect_Block_Delimitation__semicolon_12,good1,0,[32],5639,,,32
+,,,,,,,,,,
+5640,CWE483,CWE483_Incorrect_Block_Delimitation__if_without_braces_multiline_01,CWE483_Incorrect_Block_Delimitation__if_without_braces_multiline_01,bad,1,[23],5640,,23,

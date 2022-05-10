@@ -1,0 +1,4 @@
+case_id,cwe,main_file,java_file,func_name,target,old_labeled_lines,case_id,bad_source_lines,bad_sink_lines,fixed_lines
+5690,CWE572,CWE572_Call_to_Thread_run_Instead_of_start__basic_12,CWE572_Call_to_Thread_run_Instead_of_start__basic_12,bad,1,[34],5690,,34,
+,,,,,,,,,,
+5691,CWE572,CWE572_Call_to_Thread_run_Instead_of_start__basic_12,CWE572_Call_to_Thread_run_Instead_of_start__basic_12,good1,0,[34],5691,,,66
