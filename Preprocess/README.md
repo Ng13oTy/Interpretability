@@ -26,9 +26,20 @@ Next, we will detail the basic dataset Juliet, how we label the vulnerability-re
   We first need to generate its CFG
   ![image](https://github.com/Ng13oTy/Interpretability/blob/main/Preprocess/pictures/ctr.PNG)
   
-  Note that there are three varibles 'a', 'b', 'r'. To generate DDG, we need to identify the correct ‘write’ node for each ‘read’ node.
-## preprocess Juliet
-We use Javaparser (https://javaparser.org/) to parser the source code of Juliet. To generate the CFG, we refer to the project AISEC (https://github.com/Fraunhofer-AISEC/cpg). The specific steps are contained in the codes of file "process_data".
+  Note that there are three varibles 'a', 'b', 'r'. To generate DDG, we need to know what variables are read and what variables are written with each node.
+  ![image](https://github.com/Ng13oTy/Interpretability/blob/main/Preprocess/pictures/wr.PNG)
+  
+  Next, we draw each data dependency. A data dependency goes from a node that writes into a variable to another node that reads from the variable.To have a valid dependency, we must identify the correct ‘write’ node for each ‘read’ node. That is done as follows.
+  
+  * Start with a node that reads from a variable. For example, node 3 in the example reads variable a. That read operation is the endpoint of a data dependency.
+  * Next, walk backward in the control flow graph until you find a node that writes the same variable. That is the starting point of a data dependency. For example, going backward from node 3, we visit node 2, and then node 1. Only node 1 writes a. Therefore, the data dependency for a goes from 1 to 3.
+  * The search for data dependencies has to be performed breadth-first and consider every control path that leads to the endpoint of the data dependency. For example, the read of r in node 5 could be done by node 4 or else by node 3. This is because there is a control flow from node 3 to node 5 5 as well as from node 4 to node 5.
+  
+  ![image](https://github.com/Ng13oTy/Interpretability/blob/main/Preprocess/pictures/dfg.PNG)
+  
+  see this website (https://schaumont.dyn.wpi.edu/ece4530f19/lectures/lecture18-notes.html#other-constructions) for more introduction.
+  
+  We use Javaparser (https://javaparser.org/) to parser the source code of Juliet. To generate the CFG, we refer to the project AISEC (https://github.com/Fraunhofer-AISEC/cpg). The specific steps are contained in the codes of file "process_data".
 
 
 
