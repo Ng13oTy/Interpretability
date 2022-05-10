@@ -1,10 +1,10 @@
-手工标记数据
-1、首先运行get_flaw_line.py得到所有的漏洞发生行，得到的标记行号仅作参考
-2、运行get_all_method_info.py得到所有的函数信息, 得到before_cross_fun_all_data.json,这里每个结点都已标记所在的java文件名
-3、运行get_final_data.py 实现跨函数的数据流图，并且每个函数的结点都已经按照行号排序，但函数之间的结点没进行排序
-4、运行map.py将不同的函数结点按照规则排列起来，并且得到排序后的语料，该语料经过normalization，最后根据样本的语料去重 得到 mapped_final_data.json
-5、运行pre_train_and_rearrange_data.py将结点的单词变为序号，并训练w2v模型
-6、运行prepare_label_data.py将测试集的数据都标记上对应的行号，这里只标记测试集的就足够了
-7、手工标记完毕后，对应的结点进行记录
-8、运行label.py对测试集数据进行badsource、badsink、fixed行标记
-9、运行get_special_cwe_data.py单独将cwe 22、79、89、190、191数据从测试集分离开
+1、run get_flaw_line.py to get the vulnerability-related code lines offered by Juliet. They are for reference only.
+2、Generate DDG for each of Juliet's test case functions ((https://github.com/Fraunhofer-AISEC/cpg).
+3、run get_all_method_info.py to consolidate DDG information. you will get before_cross_fun_all_data.json
+4、run get_final_data.py to implement cross-method ddg, and the nodes of each function are already sorted by line number, but the nodes between functions are not sorted
+5、run map.py to arrange the different function nodes according to the rules, and get the sorted corpus. The corpus undergoes normalization, and finally gets mapped_final_data.json according to the corpus of the sample.
+6、run pre_train_and_rearrange_data.py to change the word of the node into an ordinal number and train the w2v model
+7、run prepare_label_data.py to mark the data of the test set with the corresponding row number, it is enough to only mark the test set here
+8、hand-tagged
+9、run label.py to label the test set data with badsource, badsink, and fixed lines
+10、run get_special_cwe_data.py to separate the cwe 22, 79, 89, 190, 191 data from the test set individually
