@@ -22,8 +22,11 @@ Next, we will detail the basic dataset Juliet, how we label the vulnerability-re
 # 3. Generate DDG
   We show the process with the following example.
   ![image](https://github.com/Ng13oTy/Interpretability/blob/main/Preprocess/pictures/example.PNG)
-  we first need to generate its CFG
+  
+  We first need to generate its CFG
   ![image](https://github.com/Ng13oTy/Interpretability/blob/main/Preprocess/pictures/ctr.PNG)
+  
+  Note that there are three varibles 'a', 'b', 'r'. To generate DDG, we need to identify the correct ‘write’ node for each ‘read’ node.
 ## preprocess Juliet
 We use Javaparser (https://javaparser.org/) to parser the source code of Juliet. To generate the CFG, we refer to the project AISEC (https://github.com/Fraunhofer-AISEC/cpg). The specific steps are contained in the codes of file "process_data".
 
