@@ -1,11 +1,18 @@
 # Interpretability
-This study presents an experimental evaluation to investigate how the different deep learning models predict software vulnerability and if they have recognized the critical code segments representing the software vulnerability. With the help of our proposed framework, researchers understand the predicted results why the source code is considered as a vulnerable one more easily. We list the part of the labeled dataset (about CWE), the source code of our model and the related experiment results in this supplement. We also state that the entire dataset of this study will be available after it is published.
+This study presents an experimental evaluation to investigate how the different deep learning models predict software vulnerability and if they have recognized the critical code segments representing the software vulnerability. With the help of our proposed framework, researchers understand the predicted results why the source code is considered as a vulnerable one more easily. We list the labeled dataset (about CWE), the source code of our model and the related experiment results in this supplement. `you can reproduce our experiments easily`.
 
-# code
-The source code of the four models proposed in paper.
+There are two main steps, one is data preprocessing, and the other is model training and testing.
 
-# data
-See "data/README.md" to learn how we prepocess data.
+# Preprocess: data preprocessing
+It details how we turned Juliet into the data the models received
 
-# results
-The specific experimental results of the four models towards the RQs in paper.
+# Experiments: to train a new model or reproduce our experimental results
+You can reproduce our result or train a new model after you read "readme.md" in folder `Experiments`
+
+# Environment
+python==3.9
+torch==1.11.0
+gensim==4.1.2
+scikit-learn==1.0.2
+dgl==11.1(CUDA)
+
