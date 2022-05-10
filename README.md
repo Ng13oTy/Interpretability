@@ -3,16 +3,20 @@ This study presents an experimental evaluation to investigate how the different 
 
 There are two main steps, one is data preprocessing, and the other is model training and testing.
 
-# Preprocess: data preprocessing
+# Preprocess:
 It details how we turned Juliet into the data the models received
 
-# Experiments: to train a new model or reproduce our experimental results
+# Experiments:
 You can reproduce our result or train a new model after you read "readme.md" in folder `Experiments`
 
 # Environment
 python==3.9
+
 torch==1.11.0
+
 gensim==4.1.2
-scikit-learn==1.0.2
+
+scikit-learn==1.0.
+
 dgl==11.1(CUDA)
 
